@@ -2,28 +2,26 @@
         <div class="footer-container">
                 <div class="row">
                     <div class="col-6 col-md-2 mb-3">
-                        <h5>Section</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">Features</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">About</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">Om ErhvervsAward</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">Awards vindere</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">Bliv sponsor</a></li>
+                            <li class="nav-item mb-2"><a href="/kontakt-os.php" class="p-0 text-white">Kontakt os</a></li>
+                            <li class="nav-item mb-2"><a href="/arkiv.php" class="p-0 text-white">Arkiv</a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-md-2 mb-3">
-                        <h5>Section</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">Features</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white">About</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white"></a></li>
+                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white"></a></li>
+                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white"></a></li>
+                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white"></a></li>
+                            <li class="nav-item mb-2"><a href="#" class="p-0 text-white"></a></li>
                         </ul>
                     </div>
 
-                    <div class="col- col-md-2 mb-3">
+                    <div class="col-6 col-md-2 mb-3">
                     </div>
 
                     <div class="col-md-5 offset-md-1 mb-3">
