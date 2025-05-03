@@ -34,8 +34,8 @@
 
                 <!--Søgefelt-->
             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Søg" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2" type="search" placeholder="Søger du efter noget?" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Søg</button>
             </form>
         </div>
     </div>
