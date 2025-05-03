@@ -22,6 +22,9 @@ require "settings/init.php";
 </head>
 
 <body>
+<?php
+include ("includes/navbar.php");
+?>
 
 <h1>Det virker 🥳</h1>
 
