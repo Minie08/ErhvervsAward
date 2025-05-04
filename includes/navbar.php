@@ -4,8 +4,8 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse text-end pe-5" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                 <!--Priser-->
                 <li class="nav-item">
@@ -33,8 +33,8 @@
                 </li>
 
                 <!--Søgefelt-->
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Søger du efter noget?" aria-label="Search">
+            <form class="d-flex justify-content-end mt-2 mt-lg-0 pe-2" role="search">
+                <input class="form-control w-50" type="search" placeholder="" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Søg</button>
             </form>
         </div>
