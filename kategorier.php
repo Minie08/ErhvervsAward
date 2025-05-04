@@ -93,7 +93,6 @@ include ("includes/navbar.php");
                 </p>
             </article>
         </main>
-    </div>
 
 <?php
 include ("includes/footer.php");
