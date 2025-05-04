@@ -26,9 +26,10 @@ require "settings/init.php";
 include ("includes/navbar.php");
 ?>
 
+<!--Kontakt os-->
+<h2>Kontakt os</h2>
 <main>
     <article>
-        <h2>Kontakt os</h2>
         <p>Mandag - Fredag kl. 10.00 - 14.00
             <br>
             Lørdag, søndag og helligdage holder vi lukket
@@ -42,6 +43,7 @@ include ("includes/navbar.php");
             Du kan også altid kontakte os ved at udfylde nedenstående formular.
             <br>
         </p>
+        <!--Email formular-->
         <form action="action_page.php">
 
             <label for="fname">Fornavn:</label>
