@@ -27,72 +27,68 @@ include ("includes/navbar.php");
 ?>
 
 <!--Kategoriboks-->
-<aside class="container categories">
-        <!-- Sidebar -->
-        <div class="sidebar">
-            <h3>Kategorier</h3>
-            <a href="#erhvervsprisen">Erhvervsprisen</a>
-            <a href="#frontløberprisen">Frontløberprisen</a>
-            <a href="#initiavtivprisen">Initiativprisen</a>
-            <a href="#iværksætterprisen">Iværksætterprisen</a>
-            <a href="#klimaogmiljøprisen">Klima- og miljøprisen</a>
-            <a href="#praktikprisen">Praktikprisen</a>
-            <a href="#åretsleder">Årets leder</a>
-        </div>
+<aside class="sidebar">
+    <h3>Kategorier</h3>
+    <a href="#erhvervsprisen">Erhvervsprisen</a>
+    <a href="#frontløberprisen">Frontløberprisen</a>
+    <a href="#initiavtivprisen">Initiativprisen</a>
+    <a href="#iværksætterprisen">Iværksætterprisen</a>
+    <a href="#klimaogmiljøprisen">Klima- og miljøprisen</a>
+    <a href="#praktikprisen">Praktikprisen</a>
+    <a href="#åretsleder">Årets leder</a>
 </aside>
 
+<main class="body-text">
+    <!-- body content -->
+    <article id="erhvervsprisen">
+        <h2>Erhvervsprisen</h2>
+        <p>
+            ffff
+        </p>
+    </article>
 
-<!-- Main Content -->
-        <main class="content">
-            <article id="erhvervsprisen">
-                <h2>Erhvervsprisen</h2>
-                <p>
-                    ffff
-                </p>
-            </article>
+    <article id="frontløberprisen">
+        <h2>Frontløberprisen</h2>
+        <p>
+            ffff
+        </p>
+    </article>
 
-            <article id="frontløberprisen">
-                <h2>Frontløberprisen</h2>
-                <p>
-                    ffff
-                </p>
-            </article>
+    <article id="initiavtivprisen">
+        <h2>Initiavprisen</h2>
+        <p>
+            ffff
+        </p>
+    </article>
 
-            <article id="initiavtivprisen">
-                <h2>Initiavprisen</h2>
-                <p>
-                    ffff
-                </p>
-            </article>
+    <article id="iværksætterprisen">
+        <h2>Iværksætterprisen</h2>
+        <p>
+            ffff
+        </p>
+    </article>
 
-            <article id="iværksætterprisen">
-                <h2>Iværksætterprisen</h2>
-                <p>
-                    ffff
-                </p>
-            </article>
+    <article id="klimaogmiljøprisen">
+        <h2>Klima- og miljøprisen</h2>
+        <p>
+            ffff
+        </p>
+    </article>
 
-            <article id="klimaogmiljøprisen">
-                <h2>Klima- og miljøprisen</h2>
-                <p>
-                    ffff
-                </p>
-            </article>
+    <article id="praktikprisen">
+        <h2>Praktikprisen</h2>
+        <p>
+            ffff
+        </p>
+    </article>
 
-            <article id="praktikprisen">
-                <h2>Praktikprisen</h2>
-                <p>
-                    ffff
-                </p>
-            </article>
-
-            <article id="åretsleder">
-                <h2>Årets leder</h2>
-                <p>
-                    ffff
-                </p>
-            </article>
-        </main>
+    <article id="åretsleder">
+        <h2>Årets leder</h2>
+        <p>
+            ffff
+        </p>
+    </article>
+</main>
 
 <?php
 include ("includes/footer.php");
