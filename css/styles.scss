@@ -63,38 +63,19 @@ html, body {
 // Footer slut
 
 /*Kategori start*/
-.sidebar {
-  width: 10%;
-  box-sizing: border-box;
-  position: fixed;
+.sidebar{
   background-color: #E7B938;
-  margin-top: 5%;
-  padding-bottom: 2%;
-  padding-top: 2%;
+  color: black;
+  height: 50%;
+  position: sticky;
 }
 
-.sidebar a {
-  padding: 5%;
-  font-size: 16px;
-  display: block;
-  color: #000000;
-  margin-top: 5%;
-  margin-bottom: 5%;
-
-}
-
-.sidebar a:hover {
+.sidebar a:hover{
   background-color: #F0D484;
 }
 
-.body-text {
-  font-size: 18px;
-  padding: 5%;
-}
+.main-text{
 
-.container {
-  margin-right: 10%;
-  margin-left: 10%;
 }
 /*Kategori slut*/
 
