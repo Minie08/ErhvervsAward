@@ -29,6 +29,7 @@ html, body {
 	bottom: 0;
 	width: 100%;
 }
+// Footer slut
 
 /*Kategori start*/
 .sidebar {
@@ -77,3 +78,19 @@ html, body {
 	align-items: center;
 }
 /*Kontakter slut*/
+
+//Sponsor-bar start
+.sponsor-track {
+	animation: scrollSponsors 20s linear infinite;
+	width: max-content;
+}
+
+@keyframes scrollSponsors {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
+// Sponsor-bar slut
