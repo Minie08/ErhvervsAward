@@ -27,8 +27,9 @@ include ("includes/navbar.php");
 ?>
 
 <!--Kontakt os-->
-<h2>Kontakt os</h2>
-<main>
+
+<main class="container-fluid contact col-md-12">
+    <h2>Kontakt os</h2>
     <article>
         <p>Mandag - Fredag kl. 10.00 - 14.00
             <br>
@@ -44,7 +45,7 @@ include ("includes/navbar.php");
             <br>
         </p>
         <!--Email formular-->
-        <form action="action_page.php">
+        <form class="contactform" action="action_page.php">
 
             <label for="fname">Fornavn:</label>
             <input type="text" id="fnae" name="firstname" placeholder="Fornavn..">
