@@ -1,4 +1,4 @@
-<<?php
+<?php
 /**
  * @var db $db
  */
@@ -37,73 +37,55 @@ require "settings/init.php";
 include("includes/navbar.php");
 ?>
 
-<main class="container categories row">
-    <!--Kategoriboks-->
-    <aside class="sidebar col-md-3">
-        <h3>Kategorier</h3>
-        <a href="#erhvervsprisen">Erhvervsprisen</a>
-        <a href="#frontløberprisen">Frontløberprisen</a>
-        <a href="#initiavtivprisen">Initiativprisen</a>
-        <a href="#iværksætterprisen">Iværksætterprisen</a>
-        <a href="#klimaogmiljøprisen">Klima- og miljøprisen</a>
-        <a href="#praktikprisen">Praktikprisen</a>
-        <a href="#åretsleder">Årets leder</a>
-    </aside>
-
-    <main class="body-text container-fluid col-md-9">
-        <h2>Kategorierne</h2>
-        <br>
-        <!-- body content -->
-        <article id="erhvervsprisen">
-            <h3>Erhvervsprisen</h3>
-            <p>
-                ffff
-            </p>
-        </article>
-
-        <article id="frontløberprisen">
-            <h3>Frontløberprisen</h3>
-            <p>
-                ffff
-            </p>
-        </article>
-
-        <article id="initiavtivprisen">
-            <h3>Initiavprisen</h3>
-            <p>
-                ffff
-            </p>
-        </article>
-
-        <article id="iværksætterprisen">
-            <h3>Iværksætterprisen</h3>
-            <p>
-                ffff
-            </p>
-        </article>
-
-        <article id="klimaogmiljøprisen">
-            <h3>Klima- og miljøprisen</h3>
-            <p>
-                ffff
-            </p>
-        </article>
-
-        <article id="praktikprisen">
-            <h3>Praktikprisen</h3>
-            <p>
-                ffff
-            </p>
-        </article>
-
-        <article id="åretsleder">
-            <h3>Årets leder</h3>
-            <p>
-                ffff
-            </p>
-        </article>
-    </main>
-</main>
+<div class="container">
+    <class class="row">
+        <!--navbar-->
+        <div class="col-4 sidebar">
+            <nav id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+                <a class="p-1 rounded" href="#simple-list-item-1">Erhvervsprisen</a>
+                <a class="p-1 rounded" href="#simple-list-item-2">Frontløberprisen</a>
+                <a class="p-1 rounded" href="#simple-list-item-3">Initiativprisen</a>
+                <a class="p-1 rounded" href="#simple-list-item-4">Iværksætterprisen</a>
+                <a class="p-1 rounded" href="#simple-list-item-5">Klima- og Miljøprisen</a>
+                <a class="p-1 rounded" href="#simple-list-item-6">Praktikprisen</a>
+                <a class="p-1 rounded" href="#simple-list-item-7">Årets leder</a>
+            </nav>
+        </div>
+        <!--textbody-->
+        <div class="col-8 main-text">
+            <section data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <article>
+                    <h2 id="simple-list-item-1">Erhvervsprisen</h2>
+                    <p>Erhvervspris - hvad er prisen - sidste års vinder</p>
+                </article>
+                <article>
+                    <h4 id="simple-list-item-2">Frontløberprisen</h4>
+                    <p>Frontløberprisen - hvad er prisen - sidste års vinder</p>
+                </article>
+                <article>
+                    <h2 id="simple-list-item-3">Initiativprisen</h2>
+                    <p>Initiativprisen - hvad er prisen - sidste års vinder</p>
+                </article>
+                <article>
+                    <h2 id="simple-list-item-4">Iværksætterprisen</h2>
+                    <p>Iværksætterprisen - hvad er prisen - sidste års vinder</p>
+                </article>
+                <article>
+                    <h2 id="simple-list-item-5">Klima- og Miljøprisen</h2>
+                    <p>Klima- og Miljøprisen - hvad er prisen - sidste års vinder</p>
+                </article>
+                <article>
+                    <h2 id="simple-list-item-6">Praktikprisen</h2>
+                    <p>Praktikprisen - hvad er prisen - sidste års vinder</p>
+                </article>
+                <article>
+                    <h2 id="simple-list-item-7">Årets leder</h2>
+                    <p>Årets leder - hvad er prisen - sidste års vinder</p>
+                </article>
+            </section>
+        </div>
+    </class>
+</div>
 
 <?php
 include("includes/footer.php");
