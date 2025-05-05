@@ -115,9 +115,37 @@ html, body {
 /*Kontakter slut*/
 
 //Sponsor-bar start
+.sponsor-bar {
+  position: relative;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  overflow: hidden;
+  width: 100%
+}
+
+.sponsor-marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 100%
+}
+
 .sponsor-track {
   animation: scrollSponsors 20s linear infinite;
   width: max-content;
+  padding: 0;
+}
+
+.sponsor-track li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.sponsor-track img {
+  height: 40px;
+  max-height: 100%;
+  object-fit: contain;
+  vertical-align: middle;
 }
 
 @keyframes scrollSponsors {
@@ -125,8 +153,6 @@ html, body {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
-
-// Sponsor-bar slut
