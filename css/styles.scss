@@ -1,0 +1,174 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+$link-decoration: none;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+$custom-colors: (
+        "cta":#E7B938,
+        "cta-hover": #F0D484,
+		"cta2": #3E4D78,
+        "cta2-hover": #6D7BA5,
+        "body-bg": #EDE1D2,
+        "cards": #363636,
+        "text-color": #0E0403,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "bootstrapComponents";
+
+// 5. Du kan lave styling her...
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.h1{
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.h2{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.h3{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.p{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cta-button {
+  background-color: map-get($custom-colors, "cta");
+  color: white;
+  &:hover {
+    background-color: map-get($custom-colors, "cta-hover");
+  }
+}
+
+.cta-button2 {
+  background-color: map-get($custom-colors, "cta2");
+  color: white;
+  &:hover {
+    background-color: map-get($custom-colors, "cta2-hover");
+  }
+}
+
+// Footer
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+// Footer slut
+
+/*Kategori start*/
+.sidebar{
+  background-color: #E7B938;
+  color: black;
+  height: 50%;
+  position: sticky;
+  padding: 2% 5%;
+}
+
+.sidebar a{
+  display: block;
+  margin: 0.5em 0;
+  padding: 0.8em;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: black;
+  border-radius: 0.5em;
+}
+
+.sidebar a:hover{
+  background-color: #F0D484;
+  flex-direction: column;
+}
+
+.main-text{
+
+}
+
+@media (max-width: 768px){
+  .sidebar {
+    width: 100%;
+    padding: 3% 2%;
+  }
+  .sidebar a{
+    font-size: 1rem;
+    padding: 0.6em;
+  }
+  #simple-list-example{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+  }
+}
+/*Kategori slut*/
+
+/*Kontakter start*/
+.contact {
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 75%;
+}
+
+.contactform {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*Kontakter slut*/
+
+//Sponsor-bar start
+.sponsor-bar {
+  position: relative;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  overflow: hidden;
+  width: 100%;
+}
+
+.sponsor-marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 100%
+}
+
+.sponsor-track {
+  display: flex;
+  width: max-content;
+  padding: 0;
+  gap: 2rem;
+  transition: none;
+}
+
+.sponsor-track li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+//Sponsor-bar slut
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
