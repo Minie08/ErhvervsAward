@@ -26,17 +26,10 @@ require "settings/init.php";
 include ("includes/navbar.php");
 ?>
 
-<h1>Det virker 🥳</h1>
-
-
-
-
-<h4 class="spons text-center">Vores sponsorer</h4>
 
 <?php
 include ("includes/sponsor-bar.php");
 ?>
-
 <?php
 include ("includes/footer.php");
 ?>

@@ -1,5 +1,6 @@
 <section class="sponsor-bar py-3 bg-light border-top" aria-label="Sponsorer">
-    <div class="container-fluid overflow-hidden">
+    <div class="container-fluid overflow-hidden mt-5 mb-5">
+        <h3 class="text-center mb-5">Vores sponsorer</h3>
         <div class="sponsor-marquee">
             <ul class="sponsor-track d-flex flex-nowrap align-items-center gap-4 list-unstyled m-0">
                 <li><div class="logo-wrapper"><img src="/pic/Beierholm Logo.png" alt="Beierholm" height="60"></div></li>
