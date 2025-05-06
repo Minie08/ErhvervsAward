@@ -53,6 +53,22 @@ html, body {
   font-weight: 400;
 }
 
+.cta-button {
+  background-color: map-get($custom-colors, "cta");
+  color: white;
+  &:hover {
+    background-color: map-get($custom-colors, "cta-hover");
+  }
+}
+
+.cta-button2 {
+  background-color: map-get($custom-colors, "cta2");
+  color: white;
+  &:hover {
+    background-color: map-get($custom-colors, "cta2-hover");
+  }
+}
+
 // Footer
 .footer-container {
   position: absolute;

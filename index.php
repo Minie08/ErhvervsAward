@@ -31,15 +31,15 @@ include ("includes/navbar.php");
     <div class="position-absolute top-50 start-50 translate-middle text-white text-center"></div>
 </section>
 
-<section class="hero py-5 bg-light">
-    <div class="hero-container">
+<section class="py-5 bg-light">
+    <div class="container text-center">
         <h1 class="display-5 text-center fw-bold">ErhvervsAward</h1>
-        <p class="lead text-center mx-auto" style="max-width: 700px;">
+        <p class="lead mx-auto" style="max-width: 700px;">
             Vær med når vi hylder årets erhvervsliv i Slagelse Kommune.
             Hvert år samles virksomheder, store som små og samarbejdspartnere til en festlig aften,
             hvor vi fejrer de mange lokale erhvervssucceser.
         </p>
-        <a href="sponsoratsalg.php" class="btn btn-outline-warning mt-3">Sponsoroversigt</a>
+        <a href="sponsoratsalg.php" class="cta-button2 mt-3">Sponsoroversigt</a>
     </div>
 </section>
 
