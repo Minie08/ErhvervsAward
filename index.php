@@ -39,25 +39,40 @@ include ("includes/navbar.php");
             Hvert år samles virksomheder, store som små og samarbejdspartnere til en festlig aften,
             hvor vi fejrer de mange lokale erhvervssucceser.
         </p>
-        <a href="sponsoratsalg.php" class="btn-cta mt-3">Sponsoroversigt</a>
+        <a href="sponsoratsalg.php" class="btn btn-cta2 mt-3">Sponsoroversigt</a>
     </div>
 </section>
 
 <section class="awards py-5">
     <div class="container">
-        <h2 class="text-center mb-5">Priser</h2>
+        <h2 class="text-center mb-5">Nominerings kategorier</h2>
         <div class="row g-4">
-            <!-- Pris 1 -->
+
+            <!-- Første -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
                         <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
-                        <h5 class="card-title">Erhvervsprisen</h5>
-                        <p class="card-text">Tildeles en virksomhed med bemærkelsesværdig vækst og engagement.</p>
+                        <h5 class="card-title">Frontløberprisen</h5>
+                        <p class="card-text">Gives til en virksomhed, der har klaret sig stærkt efter modgang.</p>
                     </div>
                 </div>
             </div>
-            <!-- Gentag nedenstående blokke for hver pris -->
+
+            <!-- Anden -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
+                        <h5 class="card-title">Klima- og Miljøpris</h5>
+                        <p class="card-text">Tildeles til en virksomhed, institution eller organisation,en virksomhed med bemærkelsesværdig vækst og engagement.</p>
+                        som gennem et målrettet initiativ på markant vis gjort en særlig indsats for at beskytte
+                        klimaforandringer og understøtte et bæredygtigt miljø, inden for de 17 verdensmål.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tredje -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
@@ -67,7 +82,17 @@ include ("includes/navbar.php");
                     </div>
                 </div>
             </div>
-            <!-- ... flere priser ... -->
+
+            <!-- Fjerde -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
+                        <h5 class="card-title">Krise- og rejseprisen</h5>
+                        <p class="card-text">Gives til en virksomhed, der har klaret sig stærkt efter modgang.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
