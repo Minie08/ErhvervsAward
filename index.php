@@ -39,7 +39,7 @@ include ("includes/navbar.php");
             Hvert år samles virksomheder, store som små og samarbejdspartnere til en festlig aften,
             hvor vi fejrer de mange lokale erhvervssucceser.
         </p>
-        <a href="sponsoratsalg.php" class="btn btn-cta2 mt-3">Sponsoroversigt</a>
+        <a href="sponsoratsalg.php" class="btn btn-cta2 btn-lg">Sponsorat</a>
     </div>
 </section>
 
@@ -49,7 +49,7 @@ include ("includes/navbar.php");
         <div class="row g-4">
 
             <!-- Første -->
-            <div class="col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
                         <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
@@ -60,7 +60,7 @@ include ("includes/navbar.php");
             </div>
 
             <!-- Anden -->
-            <div class="col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
                         <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
@@ -73,7 +73,7 @@ include ("includes/navbar.php");
             </div>
 
             <!-- Tredje -->
-            <div class="col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
                         <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
@@ -84,7 +84,7 @@ include ("includes/navbar.php");
             </div>
 
             <!-- Fjerde -->
-            <div class="col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
                         <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
