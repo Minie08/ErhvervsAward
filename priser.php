@@ -26,9 +26,9 @@ require "settings/init.php";
 include("includes/navbar.php");
 ?>
 
-<div class="container px-4">
-    <div class="row gx-5">
-        <div class="sidebar text-center col-2">
+<main class="container px-4">
+    <article class="row gx-5">
+        <aside class="sidebar text-center col-2">
             <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
                 <a class="p-1 rounded" href="#simple-list-item-1">Erhvervsprisen</a>
                 <a class="p-1 rounded" href="#simple-list-item-2">Frontløberprisen</a>
@@ -38,10 +38,10 @@ include("includes/navbar.php");
                 <a class="p-1 rounded" href="#simple-list-item-6">Praktikprisen</a>
                 <a class="p-1 rounded" href="#simple-list-item-7">Årets leder</a>
             </div>
-        </div>
+        </aside>
 
-        <div class="main-text col-auto">
-            <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <article class="main-text col-auto">
+            <section data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
                 <h2 id="simple-list-item-1">Erhvervsprisen</h2>
                 <p>...</p>
                 <h2 id="simple-list-item-2">Frontløberprisen</h2>
@@ -56,9 +56,9 @@ include("includes/navbar.php");
                 <p>...</p>
                 <h2 id="simple-list-item-7">Årets leder</h2>
                 <p>...</p>
-        </div>
-    </div>
-</div>
+        </section>
+    </article>
+</article>
 
 <?php
 include("includes/footer.php");
