@@ -72,7 +72,7 @@ include ("includes/navbar.php");
     </div>
 </section>
 
-<section class="highlight py-5 bg-dark text-white text-center">
+<section class="highlight py-5">
     <div class="container">
         <img src="/pic/IværksætterPrisen.png" class="img-fluid rounded shadow" alt="Iværksætterpris vinder 2024">
     </div>
