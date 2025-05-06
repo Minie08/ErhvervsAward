@@ -68,14 +68,43 @@ html, body {
   color: black;
   height: 50%;
   position: sticky;
+  padding: 2% 5%;
+}
+
+.sidebar a{
+  display: block;
+  margin: 0.5em 0;
+  padding: 0.8em;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: black;
+  border-radius: 0.5em;
 }
 
 .sidebar a:hover{
   background-color: #F0D484;
+  flex-direction: column;
 }
 
 .main-text{
 
+}
+
+@media (max-width: 768px){
+  .sidebar {
+    width: 100%;
+    padding: 3% 2%;
+  }
+  .sidebar a{
+    font-size: 1rem;
+    padding: 0.6em;
+  }
+  #simple-list-example{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+  }
 }
 /*Kategori slut*/
 
