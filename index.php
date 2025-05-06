@@ -47,20 +47,32 @@ include ("includes/footer.php");
 
         if (!track) return;
 
-        // Dupliker alt indhold én gang
+        // Duplikerer indhold én gang for loop-effekt
         track.innerHTML += track.innerHTML;
 
         let scrollPos = 0;
+        let paused = false;
+
+        // Pause på hover (desktop)
+        track.addEventListener("mouseenter", () => paused = true);
+        track.addEventListener("mouseleave", () => paused = false);
+
+        // Pause på touch (mobil og tablet)
+        track.addEventListener("touchstart", () => paused = true);
+        track.addEventListener("touchend", () => paused = false);
 
         const scroll = () => {
-            scrollPos -= 1;
+            if (!paused) {
+                scrollPos -= 1;
 
-            // Når halvdelen er scrollet væk, nulstil scroll
-            if (Math.abs(scrollPos) >= track.scrollWidth / 2) {
-                scrollPos = 0;
+                // Loop-effekt: nulstil når halvdelen er scrollet væk
+                if (Math.abs(scrollPos) >= track.scrollWidth / 2) {
+                    scrollPos = 0;
+                }
+
+                track.style.transform = `translateX(${scrollPos}px)`;
             }
 
-            track.style.transform = `translateX(${scrollPos}px)`;
             requestAnimationFrame(scroll);
         };
 

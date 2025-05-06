@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand" href="/index.php">
-            <h1 class="h4 m-0"><strong>ErhvervsAward</strong></h1>
+            <header class="h4 m-0"><strong>ErhvervsAward</strong></header>
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
