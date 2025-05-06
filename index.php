@@ -25,24 +25,64 @@ require "settings/init.php";
 <?php
 include ("includes/navbar.php");
 ?>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+
+<section class="hero position-relative">
+    <img src="/pic/Hero.png" alt="ErhvervsAward stemning" class="w-100" style="max-height: 500px; object-fit: cover;">
+    <div class="position-absolute top-50 start-50 translate-middle text-white text-center"></div>
+</section>
+
+<section class="hero py-5 bg-light">
+    <div class="hero-container">
+        <h1 class="display-5 text-center fw-bold">ErhvervsAward</h1>
+        <p class="lead text-center mx-auto" style="max-width: 700px;">
+            Vær med når vi hylder årets erhvervsliv i Slagelse Kommune.
+            Hvert år samles virksomheder, store som små og samarbejdspartnere til en festlig aften,
+            hvor vi fejrer de mange lokale erhvervssucceser.
+        </p>
+        <a href="sponsoratsalg.php" class="btn btn-outline-warning mt-3">Sponsoroversigt</a>
+    </div>
+</section>
+
+<section class="awards py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Priser</h2>
+        <div class="row g-4">
+            <!-- Pris 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
+                        <h5 class="card-title">Erhvervsprisen</h5>
+                        <p class="card-text">Tildeles en virksomhed med bemærkelsesværdig vækst og engagement.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Gentag nedenstående blokke for hver pris -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
+                        <h5 class="card-title">Krise- og rejseprisen</h5>
+                        <p class="card-text">Gives til en virksomhed, der har klaret sig stærkt efter modgang.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ... flere priser ... -->
         </div>
     </div>
-</div>
+</section>
+
+<section class="highlight py-5 bg-dark text-white text-center">
+    <div class="container">
+        <img src="/pic/IværksætterPrisen.png" class="img-fluid rounded shadow" alt="Iværksætterpris vinder 2024">
+    </div>
+</section>
 
 
 <?php
 include ("includes/sponsor-bar.php");
 ?>
+
 <?php
 include ("includes/footer.php");
 ?>
