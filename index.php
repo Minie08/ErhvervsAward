@@ -47,7 +47,7 @@ include ("includes/footer.php");
 
         if (!track) return;
 
-        // Duplikerer indhold én gang for loop-effekt
+        //loop-effekt
         track.innerHTML += track.innerHTML;
 
         let scrollPos = 0;
@@ -63,7 +63,7 @@ include ("includes/footer.php");
 
         const scroll = () => {
             if (!paused) {
-                scrollPos -= 1;
+                scrollPos -= 0.5;
 
                 // Loop-effekt: nulstil når halvdelen er scrollet væk
                 if (Math.abs(scrollPos) >= track.scrollWidth / 2) {
