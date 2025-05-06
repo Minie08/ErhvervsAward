@@ -69,11 +69,18 @@ html, body {
   color: black;
   height: 50%;
   position: sticky;
-  padding: 2% 5%;
+  padding: 2%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .sidebar a{
   display: block;
+  width: 100%;
   margin: 0.5em 0;
   padding: 0.8em;
   font-size: 1.1em;
