@@ -32,11 +32,12 @@ include("includes/navbar.php");
             <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
                 <a class="p-1 rounded" href="#simple-list-item-1">Erhvervsprisen</a>
                 <a class="p-1 rounded" href="#simple-list-item-2">Frontløberprisen</a>
-                <a class="p-1 rounded" href="#simple-list-item-3">Initiativprisen</a>
-                <a class="p-1 rounded" href="#simple-list-item-4">Iværksætterprisen</a>
-                <a class="p-1 rounded" href="#simple-list-item-5">Klima- og Miljøprisen</a>
-                <a class="p-1 rounded" href="#simple-list-item-6">Praktikprisen</a>
-                <a class="p-1 rounded" href="#simple-list-item-7">Årets leder</a>
+                <a class="p-1 rounded" href="#simple-list-item-3">Grangia</a>
+                <a class="p-1 rounded" href="#simple-list-item-4">Initiativprisen</a>
+                <a class="p-1 rounded" href="#simple-list-item-5">Iværksætterprisen</a>
+                <a class="p-1 rounded" href="#simple-list-item-6">Klima- og Miljøprisen</a>
+                <a class="p-1 rounded" href="#simple-list-item-7">Praktikprisen</a>
+                <a class="p-1 rounded" href="#simple-list-item-8">Årets leder</a>
             </div>
         </aside>
 
@@ -46,15 +47,17 @@ include("includes/navbar.php");
                 <p>...</p>
                 <h2 id="simple-list-item-2">Frontløberprisen</h2>
                 <p>...</p>
-                <h2 id="simple-list-item-3">Initiativprisen</h2>
+                <h2 id="simple-list-item-3">Grangia</h2>
                 <p>...</p>
-                <h2 id="simple-list-item-4">Iværksætterprisen</h2>
+                <h2 id="simple-list-item-4">Initiativprisen</h2>
                 <p>...</p>
-                <h2 id="simple-list-item-5">Klima- og Miljøprisen</h2>
+                <h2 id="simple-list-item-5">Iværksætterprisen</h2>
                 <p>...</p>
-                <h2 id="simple-list-item-6">Praktikprisen</h2>
+                <h2 id="simple-list-item-6">Klima- og Miljøprisen</h2>
                 <p>...</p>
-                <h2 id="simple-list-item-7">Årets leder</h2>
+                <h2 id="simple-list-item-7">Praktikprisen</h2>
+                <p>...</p>
+                <h2 id="simple-list-item-8">Årets leder</h2>
                 <p>...</p>
         </section>
     </article>
