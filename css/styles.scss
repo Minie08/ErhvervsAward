@@ -64,14 +64,30 @@ html, body {
 // Footer slut
 
 /*Kategori start*/
+.priser{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2%;
+  width: 100%;
+  margin: auto;
+}
+
+.content-wrapper{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
 .sidebar{
   background-color: #E7B938;
   color: black;
-  height: 50%;
-  position: sticky;
-  padding: 2%;
-  box-sizing: border-box;
-  overflow-wrap: break-word;
+  width: 200px;
+  padding: 2rem 1rem;
+  height: fit-content;
+  border-radius: 0.5rem;
 }
 
 * {
@@ -80,13 +96,10 @@ html, body {
 
 .sidebar a{
   display: block;
-  width: 100%;
-  margin: 0.5em 0;
-  padding: 0.8em;
-  font-size: 1.1em;
-  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
   color: black;
-  border-radius: 0.5em;
+  text-decoration: none;
 }
 
 .sidebar a:hover{
@@ -95,7 +108,26 @@ html, body {
 }
 
 .main-text{
+  max-width: 700px;
+  padding: 1rem;
+}
 
+.main-text h2{
+  margin-top: 2rem;
+}
+
+.main-text p{
+  margin-bottom: 1rem;
+}
+
+.main-text .btn{
+  background-color: #3E4D78;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 768px){
