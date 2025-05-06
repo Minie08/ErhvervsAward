@@ -11,10 +11,10 @@ $link-decoration: none;
 // 4. Include any default map overrides here
 $custom-colors: (
         "cta":#E7B938,
-        "cta-hover": #F0D484,
+        "ctahover": #F0D484,
 		"cta2": #3E4D78,
-        "cta2-hover": #6D7BA5,
-        "body-bg": #EDE1D2,
+        "cta2hover": #6D7BA5,
+        "bodybg": #EDE1D2,
         "cards": #363636,
         "text-color": #0E0403,
 );
@@ -27,6 +27,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 html, body {
   height: 100%;
   margin: 0;
+  background-color: $body-bg
 }
 
 .h1{
@@ -51,22 +52,6 @@ html, body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-}
-
-.cta-button {
-  background-color: map-get($custom-colors, "cta");
-  color: white;
-  &:hover {
-    background-color: map-get($custom-colors, "cta-hover");
-  }
-}
-
-.cta-button2 {
-  background-color: map-get($custom-colors, "cta2");
-  color: white;
-  &:hover {
-    background-color: map-get($custom-colors, "cta2-hover");
-  }
 }
 
 // Footer

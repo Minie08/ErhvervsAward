@@ -39,7 +39,7 @@ include ("includes/navbar.php");
             Hvert år samles virksomheder, store som små og samarbejdspartnere til en festlig aften,
             hvor vi fejrer de mange lokale erhvervssucceser.
         </p>
-        <a href="sponsoratsalg.php" class="cta-button2 mt-3">Sponsoroversigt</a>
+        <a href="sponsoratsalg.php" class="btn-cta mt-3">Sponsoroversigt</a>
     </div>
 </section>
 
