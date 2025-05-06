@@ -141,38 +141,15 @@ html, body {
 }
 
 .sponsor-track {
-  animation: scrollSponsors 20s linear infinite;
+  display: flex;
   width: max-content;
   padding: 0;
+  gap: 2rem;
+  transition: none;
 }
 
 .sponsor-track li {
   display: inline-block;
   margin-right: 2rem;
-}
-
-@keyframes scrollSponsors {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.logo-wrapper {
-  width: 30%;
-  aspect-ratio: 3 / 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.logo-wrapper img {
-  width: 100%;
-  height: auto;
-  max-height: 100%;
-  object-fit: contain;
 }
 //Sponsor-bar slut

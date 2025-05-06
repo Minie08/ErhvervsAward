@@ -29,9 +29,14 @@ include ("includes/navbar.php");
 <h1>Det virker 🥳</h1>
 
 
+
+
+<h4 class="spons text-center">Vores sponsorer</h4>
+
 <?php
 include ("includes/sponsor-bar.php");
 ?>
+
 <?php
 include ("includes/footer.php");
 ?>
@@ -42,14 +47,19 @@ include ("includes/footer.php");
 
         if (!track) return;
 
+        // Dupliker alt indhold én gang
+        track.innerHTML += track.innerHTML;
+
         let scrollPos = 0;
 
         const scroll = () => {
             scrollPos -= 1;
-            // Når vi er halvvejs, nulstil scroll for loop-effekt
+
+            // Når halvdelen er scrollet væk, nulstil scroll
             if (Math.abs(scrollPos) >= track.scrollWidth / 2) {
                 scrollPos = 0;
             }
+
             track.style.transform = `translateX(${scrollPos}px)`;
             requestAnimationFrame(scroll);
         };
