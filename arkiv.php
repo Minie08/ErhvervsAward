@@ -139,10 +139,6 @@ include("includes/navbar.php");
                             <img src="/pic/arkiv-pic/årets-leder.jpg" class="img-fluid rounded shadow-sm" alt="åretsleder pris vinder (slagelse sygehus, akutafdelingen">
                         </figure>
                     </article>
-
-
-
-
                 </div>
             </div>
 
@@ -151,8 +147,6 @@ include("includes/navbar.php");
                 <p class="text-muted fs-5">Her er endnu ikke uploadet billeder, kontakt os gerne hvis du har billeder fra denne arrangement.</p>
             </div>
         </section>
-
-    </section>
 </main>
 
 <?php
