@@ -26,7 +26,7 @@ require "settings/init.php";
 include("includes/navbar.php");
 ?>
 
-<main class="container priser px-4">
+<main class="priser">
     <div class="content-wrapper">
         <article class="row gx-2">
             <aside class="sidebar text-center col-2">
