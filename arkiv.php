@@ -32,7 +32,7 @@ include("includes/navbar.php");
                 <h2 id="billedarkiv" class="fw-bold">Billedarkiv</h2>
                 <p class="text-muted">
                     Har du billeder du vil dele med os som blev taget til arrangementet, så hører vi gerne fra dig.<br>
-                    Krediteres godkendt: <a href="mailto:navn@domain.dk">navn@domain.dk</a>
+                    Kontakt os på <a href="mailto:press@slagelse.dk">press@slagelse.dk</a>
                 </p>
 
                 <!-- Årstal -->

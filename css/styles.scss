@@ -275,12 +275,15 @@ html, body {
 }
 
 // Arkiv start
-.years-filter a {
-  color: black;
-  transition: 0.2s ease;
+.year-btn,
+a[href^="mailto:"] {
+  color: #3E4D78;
 }
 
-.years-filter a:hover {
-  color: #3E4D78; /* Din cta2 farve */
+.year-btn.active {
   text-decoration: underline;
+}
+
+.year-gallery.active {
+  display: block;
 }
