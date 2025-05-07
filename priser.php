@@ -46,16 +46,15 @@ include("includes/navbar.php");
                 <section data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
                          data-bs-smooth-scroll="true" class="scrollspy-example prizeentry" tabindex="0">
                     <section class="prizeitem" id="simple-list-item-1">
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Frontløber prisvinder">
                         <section class="prize-text">
                             <h2>Frontløberprisen</h2>
                             <p>Frontløberprisen gives til en virksomhed eller en person i Slagelse Kommune,
                                 som går forrest med det gode eksempel, skaber positivitet og udvikling omkring sig til
                                 inspiration for andre og til gavn og glæde for kunderne.</p>
                         </section>
+                        <img src="pic/placeholder.png" class="prizeimg" alt="Frontløber prisvinder">
                     </section>
                     <section class="prizeitem" id="simple-list-item-2">
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Grangia prisvinder">
                         <section class="prize-text">
                             <h2 id="simple-list-item-2">Grangia</h2>
                             <p>Grangia Erhvervspris hylder lokale talenter, under 40 år, der er særligt innovative og
@@ -69,9 +68,9 @@ include("includes/navbar.php");
                                 positiv forskel for det lokale erhvervsliv, samt har placeret Slagelse på
                                 landkortet.</p>
                         </section>
+                        <img src="pic/placeholder.png" class="prizeimg" alt="Grangia prisvinder">
                     </section>
                     <section class="prizeitem" id="simple-list-item-3">
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Initiativ prisvinder">
                         <section class="prize-text">
                             <h2 id="simple-list-item-3">Initiativprisen</h2>
                             <p>Initiativprisen er en ganske særlig pris, som Slagelse Erhvervsråd uddeler til en
@@ -85,18 +84,18 @@ include("includes/navbar.php");
                                 stor event, som hylder det lokale erhvervsliv, og som foregår i november måned.
                             </p>
                         </section>
+                        <img src="pic/placeholder.png" class="prizeimg" alt="Initiativ prisvinder">
                     </section>
                     <section class="prizeitem" id="simple-list-item-4">
                         <section class="prize-text">
-                            <img src="pic/placeholder.png" class="prizeimg" alt="Iværksætter prisvinder">
                             <h2 id="simple-list-item-4">Iværksætterprisen</h2>
                             <p>Iværksætteri handler om at starte og drive en ny virksomhed, om at udvise
                                 risikovillighed, innovation og om at finde måder hvor behov identificeres og
                                 imødekommes.</p>
                         </section>
+                        <img src="pic/placeholder.png" class="prizeimg" alt="Iværksætter prisvinder">
                     </section>
                     <section class="prizeitem" id="simple-list-item-5">
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Klima- og miljø prisvinder">
                         <section class="prize-text">
                             <h2 id="simple-list-item-5">Klima- og Miljøprisen</h2>
                             <p>Prisen gives til en virksomhed, institution eller organisation beliggende i Slagelse
@@ -104,9 +103,9 @@ include("includes/navbar.php");
                                 indsats for at beskytte mod klimaforandringer og understøtte et bæredygtigt
                                 miljø.</p>
                         </section>
+                        <img src="pic/placeholder.png" class="prizeimg" alt="Klima- og miljø prisvinder">
                     </section>
                     <section class="prizeitem" id="simple-list-item-6">
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Praktik prisvinder">
                         <section class="prize-text">
                             <h2 id="simple-list-item-6">Praktikprisen</h2>
                             <p>Alle studerende på Zealand - Sjællands Erhvervsakademi er i praktik i en virksomhed som
@@ -117,9 +116,9 @@ include("includes/navbar.php");
                                 praktikforløb
                                 for studerende på en af Zealands videregående uddannelser. </p>
                         </section>
+                        <img src="pic/placeholder.png" class="prizeimg" alt="Praktik prisvinder">
                     </section>
                     <section class="prizeitem" id="simple-list-item-7">
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Årets leder prisvinder">
                         <section class="prize-text">
                             <h2 id="simple-list-item-7">Årets leder</h2>
                             <p>Prisen Årets Leder skal hylde et menneske, der i sin
@@ -137,6 +136,7 @@ include("includes/navbar.php");
                                 som store arbejdspladser, der i hverdagen gør en ægte forskel for andres trivsel og
                                 arbejdsglæde.</p>
                         </section>
+                        <img src="pic/placeholder.png" class="prizeimg" alt="Årets leder prisvinder">
                     </section>
                 </section>
             </article>
