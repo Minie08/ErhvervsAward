@@ -23,7 +23,7 @@ require "settings/init.php";
 
 <body>
 <?php
-include ("includes/navbar.php");
+include("includes/navbar.php");
 ?>
 
 <!--Kontakt os-->
@@ -35,9 +35,9 @@ include ("includes/navbar.php");
             <br>
             Lørdag, søndag og helligdage holder vi lukket
             <br>
-            Tlf: 51 26  22 99
+            Tlf: <a href="tel:+4551262299">+45 51 26 22 99</a>
             <br>
-            Mail: hsm@event-slagelse.dk
+            Mail: <a href="email:hsm@event-slagelse.dk">hsm@event-slagelse.dk</a>
             <br><br>
             Har du spørgsmål til eventet sidder vi altid klar på telefonen og svarer på mails indenfor kort tid.
             <br>
@@ -46,27 +46,32 @@ include ("includes/navbar.php");
         </p>
         <!--Email formular-->
         <form class="contactform" action="action_page.php">
-
-            <label for="fname">Fornavn:</label>
-            <input type="text" id="fnae" name="firstname" placeholder="Fornavn..">
-
-            <label for="lname">Efternavn:</label>
-            <input type="text" id="lname" name="lastname" placeholder="Efternavn..">
-
-            <label for="email">Email</label>
-            <input type="text" placeholder="Enter Email" name="email" id="email" required>
-
+            <section class="row g-3 w-100">
+                <div class="col-md-6">
+                    <label for="fname">Fornavn:</label>
+                    <input type="text" class="form-control" id="fname" name="firstname" placeholder="Fornavn...">
+                </div>
+                <div class="col-md-6">
+                    <label for="lname">Efternavn:</label>
+                    <input type="text" class="form-control" id="lname" name="lastname" placeholder="Efternavn...">
+                </div>
+            </section>
+            <section class="row g-3 w-100">
+            <label for="email">Email adresse:</label>
+            <input type="email" class="form-control" id="floatingInput" placeholder="navn@eksempel.dk" required>
+            </section>
+            <section class="row g-3 w-100">
             <label for="subject">Besked</label>
-            <textarea id="subject" name="subject" placeholder="Skriv noget.." style="height:200px"></textarea>
-
-            <input type="submit" value="Send">
-
+            <textarea class="form-control" id="subject" name="subject" placeholder="Skriv besked her..."
+                      style="height:100px"></textarea>
+                <button class="form-control btn-cta2 btn-cta2hover" type="submit">Send</button>
+            </section>
         </form>
     </article>
 </main>
 
 <?php
-include ("includes/footer.php");
+include("includes/footer.php");
 ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
