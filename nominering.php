@@ -44,7 +44,15 @@ include("includes/navbar.php");
         <!--Email formular-->
         <form class="contactform" action="action_page.php">
             <section class="row g-3 w-100">
-                <label for="floatingInput">Kandidat</label>
+                <div class="col-md-6">
+                    <label for="fname">Dit navn</label>
+                    <input type="text" class="form-control" id="fname" name="firstname" placeholder="Dit navn">
+                </div>
+                <div class="col-md-6">
+                    <label for="email">Din email</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Din email" required>
+                </div>
+                <label for="floatingInput">Nominerets navn</label>
                 <input type="text" class="form-control" id="floatingInput" placeholder="Navn" required>
             </section>
             <section class="row g-3 w-100">
@@ -61,8 +69,8 @@ include("includes/navbar.php");
                 </select>
             </section>
             <section class="row g-3 w-100">
-                <label for="subject">Besked</label>
-                <textarea class="form-control" id="subject" name="subject" placeholder="Skriv besked her..."
+                <label for="subject">Hvorfor er de nomineret?</label>
+                <textarea class="form-control" id="subject" name="subject" placeholder="Hvorfor er de nomineret?"
                           style="height:100px" required></textarea>
                 <button class="form-control btn-cta2 btn-cta2hover" type="submit">Send</button>
             </section>

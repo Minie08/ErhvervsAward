@@ -82,15 +82,13 @@ html, body {
 
 // Footer slut
 
-/*Kategori start*/
+/*Priser start*/
 .priser{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 2%;
-  width: 100%;
-  margin: auto;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 75%;
+  border: 1px red;
 }
 
 .content-wrapper{
@@ -180,24 +178,36 @@ html, body {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  bottom: 20px;
+  right: 30px;
   z-index: 99;
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #3E4D78; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 15px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  border: none;
+  outline: none;
+  background-color: #3E4D78;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 18px;
 }
 
 #myBtn:hover {
-  background-color: #6D7BA5; /* Add a dark-grey background on hover */
+  background-color: #6D7BA5;
 }
 
 @media (max-width: 768px){
+  .prizeitem{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .prizeimg{
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+  }
+
   .sidebar {
     width: 100%;
     padding: 3% 2%;
@@ -213,7 +223,7 @@ html, body {
     gap: 0.5em;
   }
 }
-/*Kategori slut*/
+/*Priser slut*/
 
 /*Kontakter start*/
 .contact {
