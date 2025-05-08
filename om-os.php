@@ -15,8 +15,9 @@ require "settings/init.php";
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
-
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <?php
+    include("includes/font.php");
+    ?>    <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>

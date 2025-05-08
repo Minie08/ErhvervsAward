@@ -15,7 +15,9 @@ require "settings/init.php";
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
-
+    <?php
+    include("includes/font.php");
+    ?>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -148,7 +150,9 @@ include("includes/navbar.php");
 <script>
     let mybutton = document.getElementById("myBtn");
 
-    window.onscroll = function() {scrollFunction()};
+    window.onscroll = function () {
+        scrollFunction()
+    };
 
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
