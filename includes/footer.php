@@ -21,7 +21,6 @@
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="/om-os.php" class="p-0 text-white text-decoration-none">Om ErhvervsAward</a></li>
                     <li class="nav-item mb-2"><a href="/prismodtagere.php" class="p-0 text-white text-decoration-none">Prismodtagere</a></li>
-                    <li class="nav-item mb-2"><a href="/bliv-sponsor.php" class="p-0 text-white text-decoration-none">Bliv sponsor</a></li>
                     <li class="nav-item mb-2"><a href="/kontakt-os.php" class="p-0 text-white text-decoration-none">Kontakt os</a></li>
                     <li class="nav-item mb-2"><a href="/arkiv.php" class="p-0 text-white text-decoration-none">Arkiv</a></li>
                 </ul>
