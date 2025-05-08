@@ -83,19 +83,15 @@ html, body {
 // Footer slut
 
 /*Priser start*/
-.priser{
+.content-wrapper{
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   width: 75%;
-  border: 1px red;
-}
-
-.content-wrapper{
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
 }
 
 .sidebar{
