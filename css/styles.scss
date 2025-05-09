@@ -54,6 +54,15 @@ html, body {
   font-weight: 400;
 }
 
+a {
+  color: #3E4D78;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #6D7BA5;
+}
+
 // Navbar start
 .nav-header {
   color: white;
@@ -341,9 +350,10 @@ a[href^="mailto:"] {
 
 .sponsorer {
   margin-top: 5%;
-  margin-right: 10%;
-  margin-left: 10%;
-  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  padding-right: 5%;
 }
 
 .sponsor-card {

@@ -29,17 +29,21 @@ include("includes/navbar.php");
 ?>
 
 <main id="logo-gallery" class="logo-gallery container">
-    <h2 class="fw-bold mb-3 pt-5">ErhvervsAward Sponsorer</h2>
-    <p class="text-muted mb-5">
-        Find vores sponsorer og se, hvem der bakker op til ErhvervsAward gennem deres sponsorater.
+    <div class="sponsorer">
+        <h2 class="fw-bold mb-3">Alle sponsorer</h2>
+        <p class="text-muted mb-5">
+        Find vores sponsorer og se, hvem der bakker op hos ErhvervsAward gennem deres sponsorater.
         Vi takker de engagerede virksomheder og organisationer, der med deres bidrag muliggør, at
         den offentlige stolthed kan løfte og anerkende de lokale erhvervsfolk.
-        Denne støtte er uvurderlig, og vi sætter stor pris på deres opbakning.
-    </p>
+        Denne støtte er uvurderlig, og vi sætter stor pris på deres opbakning. Nedenfor kan du se
+            hvilke virksomheder der sponsorerer og med hvad. Vil du gerne være en del af vores sponsorer?
+            Så kontakt os gerne <a href="kontakt-os.php">her</a>
+        </p>
+    </div>
 
-    <div class="row g-4">
+    <div class="row gap-2 justify-content-center mb-5">
 
-        <article class="col-6 col-md-4 col-lg-2 offset-lg-1"> <!-- added offset to move it right -->
+        <article class="col-6 col-md-4 col-lg-2"> <!-- added offset to move it right -->
             <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Beierholm%20Logo.png" alt="Beierholm logo" class="img-fluid">
@@ -50,7 +54,7 @@ include("includes/navbar.php");
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+        <article class="col-6 col-md-4 col-lg-2">
             <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/BusinessSlagelse%20Logo.png" alt="Business Slagelse logo" class="img-fluid">
@@ -61,7 +65,7 @@ include("includes/navbar.php");
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+        <article class="col-6 col-md-4 col-lg-2">
             <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Envafors%20Logo.png" alt="Envafors logo" class="img-fluid">
@@ -72,7 +76,7 @@ include("includes/navbar.php");
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+        <article class="col-6 col-md-4 col-lg-2">
             <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/KorsørErhvervsforening%20Logo.png" alt="Korsør Erhvervsforening logo" class="img-fluid">
@@ -83,7 +87,7 @@ include("includes/navbar.php");
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+        <article class="col-6 col-md-4 col-lg-2">
             <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Skel%20Logo.png" alt="Skeldk Landinspektører logo" class="img-fluid">
@@ -94,7 +98,7 @@ include("includes/navbar.php");
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+        <article class="col-6 col-md-4 col-lg-2">
             <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/SkælskørErhvervs%20Logo.png" alt="Skælskør Erhvervs logo" class="img-fluid">
@@ -105,7 +109,7 @@ include("includes/navbar.php");
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+        <article class="col-6 col-md-4 col-lg-2">
             <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Slagelseråd%20Logo.png" alt="Slagelseråd logo" class="img-fluid">
@@ -116,7 +120,7 @@ include("includes/navbar.php");
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+        <article class="col-6 col-md-4 col-lg-2">
             <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Sydbank%20Logo.png" alt="Sydbank logo" class="img-fluid">
@@ -127,7 +131,7 @@ include("includes/navbar.php");
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+        <article class="col-6 col-md-4 col-lg-2">
             <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Zealand%20Logo.png" alt="Zealand logo" class="img-fluid">
