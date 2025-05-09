@@ -28,7 +28,7 @@ require "settings/init.php";
 include("includes/navbar.php");
 ?>
 
-<main id="logo-gallery" class="logo-gallery container py-5">
+<main id="logo-gallery" class="logo-gallery container">
     <h2 class="fw-bold mb-3 pt-5">ErhvervsAward Sponsorer</h2>
     <p class="text-muted mb-5">
         Find vores sponsorer og se, hvem der bakker op til ErhvervsAward gennem deres sponsorater.
@@ -39,8 +39,8 @@ include("includes/navbar.php");
 
     <div class="row g-4">
 
-        <article class="col-6 col-md-4 col-lg-2">
-            <figure class="sponsor-card text-center">
+        <article class="col-6 col-md-4 col-lg-2 offset-lg-1"> <!-- added offset to move it right -->
+            <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Beierholm%20Logo.png" alt="Beierholm logo" class="img-fluid">
                 </div>
@@ -50,89 +50,89 @@ include("includes/navbar.php");
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2">
-            <figure class="sponsor-card text-center p-3">
+        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+            <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/BusinessSlagelse%20Logo.png" alt="Business Slagelse logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text mt-3">
+                <figcaption class="sponsor-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2">
-            <figure class="sponsor-card text-center p-3">
+        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+            <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Envafors%20Logo.png" alt="Envafors logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text mt-3">
+                <figcaption class="sponsor-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2">
-            <figure class="sponsor-card text-center p-3">
+        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+            <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/KorsørErhvervsforening%20Logo.png" alt="Korsør Erhvervsforening logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text mt-3">
+                <figcaption class="sponsor-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2">
-            <figure class="sponsor-card text-center p-3">
+        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+            <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Skel%20Logo.png" alt="Skeldk Landinspektører logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text mt-3">
+                <figcaption class="sponsor-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2">
-            <figure class="sponsor-card text-center p-3">
+        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+            <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/SkælskørErhvervs%20Logo.png" alt="Skælskør Erhvervs logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text mt-3">
+                <figcaption class="sponsor-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2">
-            <figure class="sponsor-card text-center p-3">
+        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+            <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Slagelseråd%20Logo.png" alt="Slagelseråd logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text mt-3">
+                <figcaption class="sponsor-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2">
-            <figure class="sponsor-card text-center p-3">
+        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+            <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Sydbank%20Logo.png" alt="Sydbank logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text mt-3">
+                <figcaption class="sponsor-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
         </article>
 
-        <article class="col-6 col-md-4 col-lg-2">
-            <figure class="sponsor-card text-center p-3">
+        <article class="col-6 col-md-4 col-lg-2 offset-lg-1">
+            <figure class="sponsor-card">
                 <div class="logo-wrapper">
                     <img src="/pic/Zealand%20Logo.png" alt="Zealand logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text mt-3">
+                <figcaption class="sponsor-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
