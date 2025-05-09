@@ -28,48 +28,116 @@ require "settings/init.php";
 include("includes/navbar.php");
 ?>
 
-<main class="container py-5 text-center">
-    <h2 class="fw-bold mb-3 mt-5 text-center">Vores sponsorer</h2>
-    <p class="text-muted mb-5" style="max-width: 600px; margin: 0 auto;">
+<main id="logo-gallery" class="logo-gallery container py-5">
+    <h2 class="fw-bold mb-3 pt-5">ErhvervsAward Sponsorer</h2>
+    <p class="text-muted mb-5">
         Find vores sponsorer og se, hvem der bakker op til ErhvervsAward gennem deres sponsorater.
         Vi takker de engagerede virksomheder og organisationer, der med deres bidrag muliggør, at
         den offentlige stolthed kan løfte og anerkende de lokale erhvervsfolk.
         Denne støtte er uvurderlig, og vi sætter stor pris på deres opbakning.
     </p>
 
-    <div class="row justify-content-center align-items-center g-4">
+    <div class="row g-4">
 
-        <div class="col-6 col-md-4">
-            <img src="/pic/Beierholm%20Logo.png" alt="Beierholm logo" class="img-fluid sponsor-logo">
-        </div>
-        <div class="col-6 col-md-4">
-            <img src="/pic/BusinessSlagelse%20Logo.png" alt="Business Slagelse logo" class="img-fluid sponsor-logo">
-        </div>
-        <div class="col-6 col-md-4">
-            <img src="/pic/Envafors%20Logo.png" alt="Envafors logo" class="img-fluid sponsor-logo">
-        </div>
+        <article class="col-6 col-md-4 col-lg-2">
+            <figure class="sponsor-card text-center">
+                <div class="logo-wrapper">
+                    <img src="/pic/Beierholm%20Logo.png" alt="Beierholm logo" class="img-fluid">
+                </div>
+                <figcaption class="sponsor-text mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </figcaption>
+            </figure>
+        </article>
 
-        <div class="col-6 col-md-4">
-            <img src="/pic/KorsørErhvervsforening%20Logo.png" alt="Korsør Erhvervsforening logo" class="img-fluid sponsor-logo">
-        </div>
-        <div class="col-6 col-md-4">
-            <img src="/pic/Skel%20Logo.png" alt="Skeldk Landinspektører logo" class="img-fluid sponsor-logo">
-        </div>
-        <div class="col-6 col-md-4">
-            <img src="/pic/SkælskørErhvervs%20Logo.png" alt="Skælskør Erhvervs logo" class="img-fluid sponsor-logo">
-        </div>
+        <article class="col-6 col-md-4 col-lg-2">
+            <figure class="sponsor-card text-center p-3">
+                <div class="logo-wrapper">
+                    <img src="/pic/BusinessSlagelse%20Logo.png" alt="Business Slagelse logo" class="img-fluid">
+                </div>
+                <figcaption class="sponsor-text mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </figcaption>
+            </figure>
+        </article>
 
-        <div class="col-12 col-md-4">
-            <img src="/pic/Slagelseråd%20Logo.png" alt="Slagelseråd logo" class="img-fluid sponsor-logo">
-        </div>
+        <article class="col-6 col-md-4 col-lg-2">
+            <figure class="sponsor-card text-center p-3">
+                <div class="logo-wrapper">
+                    <img src="/pic/Envafors%20Logo.png" alt="Envafors logo" class="img-fluid">
+                </div>
+                <figcaption class="sponsor-text mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </figcaption>
+            </figure>
+        </article>
 
-        <div class="col-12 col-md-4">
-            <img src="/pic/Sydbank%20Logo.png" alt="Sydbank logo" class="img-fluid sponsor-logo">
-        </div>
+        <article class="col-6 col-md-4 col-lg-2">
+            <figure class="sponsor-card text-center p-3">
+                <div class="logo-wrapper">
+                    <img src="/pic/KorsørErhvervsforening%20Logo.png" alt="Korsør Erhvervsforening logo" class="img-fluid">
+                </div>
+                <figcaption class="sponsor-text mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </figcaption>
+            </figure>
+        </article>
 
-        <div class="col-12 col-md-4">
-            <img src="/pic/Zealand%20Logo.png" alt="Zealand logo" class="img-fluid sponsor-logo">
-        </div>
+        <article class="col-6 col-md-4 col-lg-2">
+            <figure class="sponsor-card text-center p-3">
+                <div class="logo-wrapper">
+                    <img src="/pic/Skel%20Logo.png" alt="Skeldk Landinspektører logo" class="img-fluid">
+                </div>
+                <figcaption class="sponsor-text mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </figcaption>
+            </figure>
+        </article>
+
+        <article class="col-6 col-md-4 col-lg-2">
+            <figure class="sponsor-card text-center p-3">
+                <div class="logo-wrapper">
+                    <img src="/pic/SkælskørErhvervs%20Logo.png" alt="Skælskør Erhvervs logo" class="img-fluid">
+                </div>
+                <figcaption class="sponsor-text mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </figcaption>
+            </figure>
+        </article>
+
+        <article class="col-6 col-md-4 col-lg-2">
+            <figure class="sponsor-card text-center p-3">
+                <div class="logo-wrapper">
+                    <img src="/pic/Slagelseråd%20Logo.png" alt="Slagelseråd logo" class="img-fluid">
+                </div>
+                <figcaption class="sponsor-text mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </figcaption>
+            </figure>
+        </article>
+
+        <article class="col-6 col-md-4 col-lg-2">
+            <figure class="sponsor-card text-center p-3">
+                <div class="logo-wrapper">
+                    <img src="/pic/Sydbank%20Logo.png" alt="Sydbank logo" class="img-fluid">
+                </div>
+                <figcaption class="sponsor-text mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </figcaption>
+            </figure>
+        </article>
+
+        <article class="col-6 col-md-4 col-lg-2">
+            <figure class="sponsor-card text-center p-3">
+                <div class="logo-wrapper">
+                    <img src="/pic/Zealand%20Logo.png" alt="Zealand logo" class="img-fluid">
+                </div>
+                <figcaption class="sponsor-text mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </figcaption>
+            </figure>
+        </article>
+
     </div>
 </main>
 
