@@ -43,33 +43,6 @@ include ("includes/navbar.php");
             Eventet er 100% sponsorfinansieret.
         </p>
     </section>
-    <div class="omoscard">
-        <img src="img.jpg" alt="John" style="width:100%">
-        <h1>John Doe</h1>
-        <p class="title">Formand</p>
-        <a href="#"><i class="fa fa-dribbble"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <p><button class="omos btn">Contact</button></p>
-    </div>
-    <div class="omos card">
-        <img src="img.jpg" alt="John" style="width:100%">
-        <h1>John Doe</h1>
-        <p class="title">Næsteformand</p>
-        <a href="#"><i class="fa fa-dribbble"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <p><button class="omos btn">Contact</button></p>
-    </div>
-    <div class="omos card">
-        <img src="img.jpg" alt="John" style="width:100%">
-        <h1>John Doe</h1>
-        <p class="title">Kassér</p>
-        <a href="#"><i class="fa fa-dribbble"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <p><button class="omos btn">Contact</button></p>
-    </div>
-    <section>
-
-    </section>
 </main>
 
 <?php
