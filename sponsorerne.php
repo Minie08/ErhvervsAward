@@ -29,7 +29,7 @@ include("includes/navbar.php");
 ?>
 
 <main id="logo-gallery" class="logo-gallery container">
-    <div class="sponsorer">
+    <div class="sponsorer text-center text-md-start">
         <h2 class="fw-bold mb-3">Alle sponsorer</h2>
         <p class="text-muted mb-5">
         Find vores sponsorer og se, hvem der bakker op hos ErhvervsAward gennem deres sponsorater.
@@ -48,7 +48,7 @@ include("includes/navbar.php");
                 <div class="logo-wrapper">
                     <img src="/pic/Beierholm%20Logo.png" alt="Beierholm logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text mt-3">
+                <figcaption class="sponsor-text text-center text-md-start mt-3">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
@@ -59,7 +59,7 @@ include("includes/navbar.php");
                 <div class="logo-wrapper">
                     <img src="/pic/BusinessSlagelse%20Logo.png" alt="Business Slagelse logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text">
+                <figcaption class="sponsor-text text-center text-md-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
@@ -70,7 +70,7 @@ include("includes/navbar.php");
                 <div class="logo-wrapper">
                     <img src="/pic/Envafors%20Logo.png" alt="Envafors logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text">
+                <figcaption class="sponsor-text text-center text-md-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
@@ -81,7 +81,7 @@ include("includes/navbar.php");
                 <div class="logo-wrapper">
                     <img src="/pic/KorsørErhvervsforening%20Logo.png" alt="Korsør Erhvervsforening logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text">
+                <figcaption class="sponsor-text text-center text-md-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
@@ -92,7 +92,7 @@ include("includes/navbar.php");
                 <div class="logo-wrapper">
                     <img src="/pic/Skel%20Logo.png" alt="Skeldk Landinspektører logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text">
+                <figcaption class="sponsor-text text-center text-md-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
@@ -103,7 +103,7 @@ include("includes/navbar.php");
                 <div class="logo-wrapper">
                     <img src="/pic/SkælskørErhvervs%20Logo.png" alt="Skælskør Erhvervs logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text">
+                <figcaption class="sponsor-text text-center text-md-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
@@ -114,7 +114,7 @@ include("includes/navbar.php");
                 <div class="logo-wrapper">
                     <img src="/pic/Slagelseråd%20Logo.png" alt="Slagelseråd logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text">
+                <figcaption class="sponsor-text text-center text-md-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
@@ -125,7 +125,7 @@ include("includes/navbar.php");
                 <div class="logo-wrapper">
                     <img src="/pic/Sydbank%20Logo.png" alt="Sydbank logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text">
+                <figcaption class="sponsor-text text-center text-md-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
@@ -136,7 +136,7 @@ include("includes/navbar.php");
                 <div class="logo-wrapper">
                     <img src="/pic/Zealand%20Logo.png" alt="Zealand logo" class="img-fluid">
                 </div>
-                <figcaption class="sponsor-text">
+                <figcaption class="sponsor-text text-center text-md-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </figcaption>
             </figure>
