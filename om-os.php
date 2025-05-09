@@ -31,17 +31,46 @@ include ("includes/navbar.php");
 <!--Om os-->
 <main class="container-fluid col-md-12">
     <section class="omos">
-        <h2>Om os</h2>
+        <h2>Om ErhvervsAward</h2>
         <p>
             ErhvervsAward startede i 2015, først som en del af Slagelse Kommunes måder at støtte
             op om og hylde det lokale erhvervsliv.
-            <br>
+        </p>
+        <p>
             Der blev taget en politisk beslutning i 2024 om at
             kommunens engagement i eventet stoppede, og et miks af erhvervsforeninger overtog
             dernæst eventet.
-            <br>
+        </p>
+        <p>
             Eventet er 100% sponsorfinansieret.
         </p>
+    </section>
+
+    <section class="container-fluid row team-cards">
+        <article class="card omoscard col-12 col-sm-6 col-md-4">
+            <img src="pic/placeholder.png" class="card-img-top" alt="Billede af formand">
+            <figcaption class="card-body">
+                <h3 class="card-title">Formand</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-cta2" aria-label="Læs mere om formandens rolle">Læs mere</a>
+            </figcaption>
+        </article>
+        <article class="card omoscard col-12 col-sm-6 col-md-4">
+            <img src="pic/placeholder.png" class="card-img-top" alt="Billede af formand">
+            <figcaption class="card-body">
+                <h3 class="card-title">Næstformand</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-cta2" aria-label="Læs mere om næstformandens rolle">Læs mere</a>
+            </figcaption>
+        </article>
+        <article class="card omoscard col-12 col-sm-6 col-md-4">
+            <img src="pic/placeholder.png" class="card-img-top" alt="Billede af formand">
+            <figcaption class="card-body">
+                <h3 class="card-title">Kassér</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-cta2" aria-label="Læs mere om kassérerens rolle">Læs mere</a>
+            </figcaption>
+        </article>
     </section>
 </main>
 
