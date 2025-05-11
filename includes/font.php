@@ -27,3 +27,5 @@
         s.parentNode.insertBefore(tk,s)
     })(document);
 </script>
+
+<script src="https://kit.fontawesome.com/c32d07d51f.js" crossorigin="anonymous"></script>
