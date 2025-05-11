@@ -82,6 +82,11 @@ a:hover {
 .nav-link {
   color: white;
 }
+
+.nav-link:hover {
+  color: #E7B938;
+}
+
 // Navbar slut
 // Footer
 .footer-container {
@@ -94,11 +99,12 @@ a:hover {
 
 //Index start
 .pris-logo {
-  width: 30%;
+  width: auto;
   max-width: 100px;
-  height: auto;
+  height: 100px;
   display: block;
   margin: 0 auto;
+  object-fit: contain;
 }
 //Index slut
 
