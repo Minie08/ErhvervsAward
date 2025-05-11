@@ -43,7 +43,6 @@ include("includes/navbar.php");
                     <a class="p-1 rounded" href="#simple-list-item-7">Årets leder</a>
                 </div>
             </aside>
-
             <article class="main-text">
                 <section data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
                          data-bs-smooth-scroll="true" class="scrollspy-example prizeentry" tabindex="0">

@@ -33,16 +33,13 @@ include("includes/navbar.php");
     <h2>Nominering</h2>
     <article>
         <p>Mandag - Fredag kl. 10.00 - 14.00
-            Hvem vil du nominere? Udfyld formularen her og indsend din nominering.
-            <br>
-            Læs kategorierne <a href="priser.php">her</a>, og nominer din vinder.
-            <br>
-            Indstil din kandidat senest den 1. september 2025
-            <br>
-            Efter nomineringerne vil en dommerkomite se alle indstillingerne igennem inden en vinder findes.
-            <br>
-            Vinderne vil annonceres på arrangementet den 7. november 2025
+           <p>Hvem vil du nominere? Udfyld formularen her og indsend din nominering.</p>
+           <p>Læs kategorierne <a href="priser.php">her</a>, og nominer din vinder.</p>
+           <p>Indstil din kandidat senest den 1. september 2025.</p>
+            <p>Efter nomineringerne vil en dommerkomite se alle indstillingerne igennem inden en vinder findes.</p>
+           <p>Vinderne vil annonceres på arrangementet den 7. november 2025.</p>
         </p>
+
         <!--Email formular-->
         <form class="contactform" action="action_page.php">
             <section class="row g-3 w-100">
@@ -54,10 +51,10 @@ include("includes/navbar.php");
                     <label for="email">Din email</label>
                     <input type="email" class="form-control" id="floatingInput" placeholder="Din email" required>
                 </div>
-                <label for="floatingInput">Nominerets navn</label>
-                <input type="text" class="form-control" id="floatingInput" placeholder="Navn" required>
             </section>
             <section class="row g-3 w-100">
+                <label for="floatingInput">Nominerets navn</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Navn" required>
                 <label for="pris">Pris nominering</label>
                 <select class="form-select" id="pris" aria-label="vælg pris nominering" required>
                     <option selected>Vælg pris nominering</option>
@@ -74,7 +71,7 @@ include("includes/navbar.php");
                 <label for="subject">Hvorfor er de nomineret?</label>
                 <textarea class="form-control" id="subject" name="subject" placeholder="Hvorfor er de nomineret?"
                           style="height:100px" required></textarea>
-                <button class="form-control btn-cta2 btn-cta2hover" type="submit">Send</button>
+                <button class="form-control btn-send" type="submit">Send</button>
             </section>
         </form>
     </article>
