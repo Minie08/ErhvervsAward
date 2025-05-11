@@ -87,7 +87,7 @@ include ("includes/navbar.php");
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
-                        <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
+                        <img src="/pic/----" alt="------" class="pris-logo mb-3 mt-2">
                         <h5 class="card-title">Krise- og rejseprisen</h5>
                         <p class="card-text">Gives til en virksomhed, der har klaret sig stærkt efter modgang.</p>
                     </div>
