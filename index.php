@@ -65,11 +65,9 @@ include ("includes/navbar.php");
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
-                        <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
+                        <img src="/pic/klima-miljø-v.png" alt="globus med blomst" class="pris-logo mb-3 mt-2">
                         <h5 class="card-title">Klima- og Miljøpris</h5>
-                        <p class="card-text">Tildeles til en virksomhed, institution eller organisation, en virksomhed med bemærkelsesværdig vækst og engagement.</p>
-                        Som gennem et målrettet initiativ på markant vis gjort en særlig indsats for at beskytte
-                        klimaforandringer og understøtte et bæredygtigt miljø, inden for de 17 verdensmål.
+                        <p class="card-text">Tildeles til den der har gjort en særlig indsats for at beskytte mod klimaforandringer og understøttet et bæredygtigt miljø.</p>
                     </div>
                 </div>
             </div>
@@ -78,7 +76,7 @@ include ("includes/navbar.php");
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
-                        <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
+                        <img src="/pic/----" alt="-------" class="pris-logo mb-3 mt-2">
                         <h5 class="card-title">Krise- og rejseprisen</h5>
                         <p class="card-text">Gives til en virksomhed, der har klaret sig stærkt efter modgang.</p>
                     </div>
