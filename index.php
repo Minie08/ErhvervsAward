@@ -54,7 +54,7 @@ include ("includes/navbar.php");
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
-                        <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
+                        <img src="/pic/frontløber-v.png" alt="Løbende sort tandstiks mand med pokal" class="pris-logo mb-3">
                         <h5 class="card-title">Frontløberprisen</h5>
                         <p class="card-text">Uddeles for 5. gang i 2025, en pris for den der skaber positivitet og udvikling omkring sig.</p>
                     </div>
