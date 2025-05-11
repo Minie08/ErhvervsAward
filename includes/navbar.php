@@ -12,9 +12,9 @@
         <div class="collapse navbar-collapse text-end pe-5" id="navbarSupportedContent">
             <ul class="navbar-nav text-light ms-auto mb-2 mb-lg-0 align-items-lg-center gap-2">
 
-                <!-- Sponsorerne -->
+                <!-- Priser -->
                 <li class="nav-item">
-                    <a class="nav-link" href="/sponsorerne.php">Sponsorerne</a>
+                    <a class="nav-link" aria-current="page" href="/priser.php">Priser</a>
                 </li>
 
                 <!-- Nominering -->
@@ -22,9 +22,9 @@
                     <a class="nav-link" href="/nominering.php">Nominering</a>
                 </li>
 
-                <!-- Priser -->
+                <!-- Sponsorerne -->
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/priser.php">Priser</a>
+                    <a class="nav-link" href="/sponsorerne.php">Sponsorerne</a>
                 </li>
 
                 <!-- Om os -->
@@ -40,7 +40,7 @@
                 <!-- Søgefelt-->
                 <li class="nav-item w-100 w-lg-auto d-flex justify-content-end">
                     <form class="d-flex gap-2" role="search">
-                        <input class="form-control form-control-sm w-745 w-lg-50" type="search" placeholder="Søg..." aria-label="Search">
+                        <input class="form-control form-control-sm w-745 w-lg-50" type="search" placeholder="" aria-label="Search">
                         <button class="btn btn-sm btn btn-cta" type="submit">Søg</button>
                     </form>
                 </li>
