@@ -343,13 +343,26 @@ a:hover {
 }
 /*Kontakt slut*/
 
-/*Nominering start*/
-
-/*Nominering slut*/
-
 /*Om os start*/
+.intro-container {
+   display: flex;
+   justify-content: center;
+ }
+
+@media (min-width: 768px) {
+  .intro-box {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro-box {
+    text-align: center;
+  }
+}
+
 .intro-box {
-  background-color: #2d2c2c;
+  background-color: #363636;
   border-radius: 8px;
   padding: 4%;
   margin: 60px auto;
@@ -358,15 +371,17 @@ a:hover {
 }
 
 .team {
+  padding: 5%;
+}
+
+.row {
   display: flex;
   flex-wrap: wrap;
+  gap: 2rem;
   justify-content: center;
-  gap: 4% 4%;
-  padding: 5% 5%;
 }
 
 .member {
-  width: 40%;
   background-color: #363636;
   border-radius: 8px;
   padding-top: 12%;
@@ -374,18 +389,33 @@ a:hover {
   position: relative;
   text-align: center;
   color: white;
+  flex: 0 1 calc(50% - 2rem);
+}
+
+@media (max-width: 768px) {
+  .member {
+    flex: 0 1 100%;
+  }
 }
 
 .photo {
-  width: 25%;
+  width: 35%;
   aspect-ratio: 1/1;
   background-color: #363636;
   border: 2px solid #d5c7b7;
   border-radius: 50%;
   position: absolute;
-  top: -12.5%;
+  top: -17.5%;
   left: 50%;
   transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .info h2 {
@@ -398,11 +428,18 @@ a:hover {
   line-height: 1.4;
 }
 
-.info a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+.member .info a.team-mail {
+  color: #E7B938;
+  font-weight: normal;
 }
+
+.member .info a.team-phone {
+  color: white;
+  font-weight: normal;
+}
+@media (max-width: 767px) {
+}
+
 /*Om os slut*/
 
 //Sponsor-bar start

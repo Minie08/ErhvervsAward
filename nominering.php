@@ -29,7 +29,7 @@ include("includes/navbar.php");
 ?>
 
 <!--nomineringer-->
-<main class="container-fluid contact py-5 text-center text-md-start">
+<main class="container-fluid contact pt-5 text-center text-md-start">
     <h2 class="fw-bold mb-3">Nominering</h2>
     <article>
         <p class="text-muted">
