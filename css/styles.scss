@@ -381,7 +381,7 @@ a:hover {
 
 /*Nominering slut*/
 
-/* Intro tekst responsiv placering */
+// Om os start
 .intro-container {
   display: flex;
   justify-content: center;
@@ -463,13 +463,13 @@ a:hover {
 }
 
 .photo {
-  width: 35%;
+  width: 30%;
   aspect-ratio: 1/1;
   background-color: #363636;
   border: 2px solid #d5c7b7;
   border-radius: 50%;
   position: absolute;
-  top: -15%;
+  top: -17%;
   left: 50%;
   transform: translateX(-50%);
   overflow: hidden;

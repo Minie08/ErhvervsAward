@@ -10,17 +10,48 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>ErhvervsAward</title>
+    <title>Pris kategorier</title>
 
-    <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="description" content="Udforsk de 7 pris-kategorier til ErhvervsAward, som hylder innovation, lederskab, miljø og iværksætteri i Slagelse.">
+    <meta name="keywords" content="ErhvervsAward, priser, erhvervspriser, Slagelse erhverv, Frontløberprisen, Grangia Erhvervspris, Initiativprisen, Iværksætterprisen, Klima- og Miljøprisen, Praktikprisen, Årets leder, erhvervspris 2024, lokale virksomheder, erhvervsliv Slagelse">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="ErhvervsAward">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Pris kategorier – ErhvervsAward">
+    <meta property="og:description" content="Se alle pris kategorier ved ErhvervsAward – her hyldes initiativ, iværksætteri, miljø, praktik og ledelse.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.erhvervsaward.dk/priser.php">
+    <meta property="og:image" content="https://www.erhvervsaward.dk/pic/priser.jpg">
+
+
+    <link rel="canonical" href="https://www.erhvervsaward.dk/priser.php">
+
     <?php
     include("includes/font.php");
     ?>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Pris-kategorier",
+            "url": "https://www.erhvervsaward.dk/priser.php",
+            "description": "ErhvervsAward uddeler priser til virksomheder og personer i Slagelse, i samarbejde med sponsorerede virksomheder",
+            "publisher": {
+                "@type": "Organization",
+                "name": "ErhvervsAward",
+                "url": "https://www.erhvervsaward.dk",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.erhvervsaward.dk/pic/logo.png"
+                }
+            }
+        }
+    </script>
+
 </head>
 
 <body>
