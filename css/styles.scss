@@ -113,7 +113,7 @@ a:hover {
   display: flex;
   gap: 3rem;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   max-width: 1200px;
   margin-top: 5%;
   margin-right: 10%;
@@ -126,7 +126,7 @@ a:hover {
   color: black;
   width: 200px;
   height: fit-content;
-  padding: 2rem 1rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   margin: 0 3rem;
 }
@@ -145,7 +145,6 @@ a:hover {
 
 .sidebar a:hover{
   background-color: #F0D484;
-  flex-direction: column;
 }
 
 .main-text{
@@ -203,16 +202,17 @@ a:hover {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   z-index: 99;
   border: none;
   outline: none;
   background-color: #3E4D78;
   color: white;
-  cursor: pointer;
+  /*cursor: pointer;*/
   padding: 15px;
   border-radius: 15px;
   font-size: 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 #myBtn:hover {
@@ -220,42 +220,56 @@ a:hover {
 }
 
 @media (max-width: 768px){
-  .prizeitem{
+  .content-wrapper {
     flex-direction: column;
     align-items: center;
+    margin: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  #myBtn {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .prizeitem{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .prize-text{
+    text-align: center;
   }
 
   .prizeimg{
-    margin-bottom: 1rem;
-    width: 100%;
+    /*margin-bottom: 1rem;*/
     height: auto;
-    max-width: 600px;
+    max-width: 100%;
+  }
+
+  .main-text{
+    width: 100%;
+    max-width: none;
+    padding: 1rem;
   }
 
   .sidebar {
     width: 100%;
-    padding: 3% 2%;
+    margin: 0;
+    order: -1;
+    padding: 1rem 0;
   }
   .sidebar a{
     font-size: 1rem;
     padding: 0.6em;
   }
   #simple-list-example{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5em;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    justify-content: flex-start;
+    /*gap: 0.5em;*/
   }
-}
-
-.sidebar-btn-wrapper{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1.5rem;
-  padding-top: 1rem;
-  border-top: 2px solid #ddd;
-  background-color: transparent;
 }
 
 .lightbox-overlay{
