@@ -11,16 +11,52 @@ require "settings/init.php";
     <meta charset="utf-8">
     
     <title>ErhvervsAward</title>
-    
-    <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+
+    <meta name="description" content="ErhvervsAward hylder det lokale erhvervsliv i Slagelse Kommune. Deltag i årets festlige aften med prisuddelinger, netværk og fejring af erhvervssucceser."/>
+    <meta name="keywords" content="ErhvervsAward, erhvervspris, Slagelse, lokale virksomheder, prisuddeling, netværk, iværksætteri, erhvervsliv, erhvervsevent, lederskab, innovation, bæredygtighed, fællesskab, forsamling, event, arrangement, fest, gallaaften, underholdning, festmiddag"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="author" content="ErhvervsAward">
+    <meta name="language" content="da"/>
+    <meta name="copyright" content="© 2025 ErhvervsAwards Slagelse">
+
+    <meta property="og:title" content="ErhvervsAward - Fejr Slagelses Erhvervsliv">
+    <meta property="og:description" content="Deltag i årets festlige fejring af erhvervslivet i Slagelse Kommune. Oplev prisuddelinger, netværk og underholdning.">
+    <meta property="og:image" content="https://erhvervsaward.dk/pic/Hero.png">
+    <meta property="og:url" content="https://erhvervsaward.dk">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ErhvervsAward">
+
+    <link rel="canonical" href="https://erhvervsaward.dk/"
+
     <?php
     include("includes/font.php");
     ?>
+
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "ErhvervsAwards Slagelse",
+            "url": "https://erhvervsaward.dk",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://erhvervsaward.dk/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "ErhvervsAwards Slagelse",
+                "url": "https://erhvervsaward.dk",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://erhvervsaward.dk/pic/logo.png"
+                }
+            }
+        }
+    </script>
+
 </head>
 
 <body>

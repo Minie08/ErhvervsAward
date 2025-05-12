@@ -5,22 +5,58 @@
 
 require "settings/init.php";
 ?>
-    <!DOCTYPE html>
-    <html lang="da">
+<!DOCTYPE html>
+<html lang="da">
 <head>
     <meta charset="utf-8">
 
     <title>ErhvervsAward</title>
 
-    <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="description" content="Nominer din kandidat til ErhvervsAward 2025. Udfyld formularen og vær med til at hylde de bedste fra erhvervslivet i Slagelse."/>
+    <meta name="keywords" content="ErhvervsAward, nominering, kandidat, nominering 2025, erhvervsliv Slagelse, erhvervspris, nominer en kandidat, priser, kategorier, erhvervsprisen, frontløberprisen, iværksætterprisen, klima pris, miljø pris, årets leder, grangia"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="author" content="ErhvervsAward">
+    <meta name="language" content="da"/>
+    <meta name="copyright" content="© 2025 ErhvervsAwards Slagelse">
+
+    <meta property="og:title" content="Nominering - ErhvervsAwards Slagelse">
+    <meta property="og:description" content="Nominier din kandidat til ErhvervsAward 2025. Udfyld formularen og vær med til at hylde erhvervslivet i Slagelse Kommune">
+    <meta property="og:image" content="https://erhvervsaward.dk/pic/nominering/erhvervspris.jpg">
+    <meta property="og:url" content="https://erhvervsaward.dk/nominering">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ErhvervsAwards Slagelse">
+
+    <link rel="canonical" href="https://erhvervsaward.dk/nominering">
+
     <?php
     include("includes/font.php");
     ?>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": "ErhvervsAward 2025 - Nominering",
+            "startDate": "2025-09-01T00:00:00",
+            "endDate": "2025-09-01T23:59:59",
+            "eventStatus": "EventScheduled",
+            "eventAttendanceMode": "OfflineEventAttendanceMode",
+            "location": {
+                "@type": "Place",
+                "name": "Slagelse Kommune",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Slagelse",
+                    "addressCountry": "DK"
+                }
+            },
+            "description": "Nominer din kandidat til ErhvervsAward 2025, en hædring af de bedste erhvervslivet i Slagelse Kommune.",
+            "image": "https://www.erhvervsaward.dk/images/nomineringsbillede.jpg",
+            "url": "https://www.erhvervsaward.dk/nominer"
+        }
+    </script>
 </head>
 
 <body>
@@ -33,7 +69,7 @@ include("includes/navbar.php");
     <h2 class="fw-bold mb-3">Nominering</h2>
     <article>
         <p class="text-muted">
-            Hvem vil du nominere?
+            Nominer en kandidat for 2025
         </p>
 
         <p class="text-muted">
@@ -66,9 +102,15 @@ include("includes/navbar.php");
 
         <section class="row g-3 w-100 mt-2">
             <div class="col-12">
-                <label for="nomineret">Nominerets navn</label>
+                <label for="nomineret">Kandidaten</label>
                 <input type="text" class="form-control" id="nomineret" name="nomineret" required>
             </div>
+
+            <div class="col-12">
+                <label for="nomineret">Virksomhed</label>
+                <input type="text" class="form-control" id="virksomhed" name="virksomhed" required>
+            </div>
+
             <div class="col-12">
                 <label for="pris">Nominering</label>
                 <select class="form-select" id="pris" name="pris" required>
@@ -105,4 +147,4 @@ include("includes/footer.php");
 ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-    </html><?php
+</html>

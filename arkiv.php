@@ -10,17 +10,49 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Arkiv</title>
+    <title>Billedarkiv</title>
 
-    <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="description" content="Se billeder fra tidligere års ErhvervsAward. Fejr vinderne og oplev stemningen fra arrangementet"/>
+    <meta name="keywords" content="ErhvervsAward, billedarkiv, erhvervspris, Slagelse, vinderbilleder, prisuddeling, fællesskab, forsamling, event, arrangement, fest, gallaaften, underholdning, festmiddag"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="author" content="ErhvervsAward">
+    <meta name="language" content="da"/>
+    <meta name="copyright" content="© 2025 ErhvervsAwards Slagelse">
+
+    <meta property="og:title" content="Arkiv - ErhvervsAwards Slagelse">
+    <meta property="og:description" content="Se billeder fra tidligere års ErhvervsAwards i Slagelse.">
+    <meta property="og:image" content="https://erhvervsaward.dk/pic/arkiv-pic/erhvervspris.jpg">
+    <meta property="og:url" content="https://erhvervsaward.dk/arkiv">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ErhvervsAwards Slagelse">
+
+    <link rel="canonical" href="https://erhvervsaward.dk/arkiv">
+
     <?php
     include("includes/font.php");
     ?>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Arkiv - ErhvervsAwards Slagelse",
+            "description": "Se billeder fra tidligere års ErhvervsAwards i Slagelse.",
+            "url": "https://erhvervsaward.dk/arkiv",
+            "image": "https://erhvervsaward.dk/pic/arkiv-pic/erhvervspris.jpg",
+            "publisher": {
+                "@type": "Organization",
+                "name": "ErhvervsAwards Slagelse",
+                "url": "https://erhvervsaward.dk",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://erhvervsaward.dk/pic/logo.png"
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>

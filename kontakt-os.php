@@ -10,17 +10,49 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>ErhvervsAward</title>
+    <title>Kontakt os</title>
 
-    <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="description" content="Kontakt ErhvervsAward Slagelse for spørgsmål om arrangementet, sponsorater eller tilmelding. Vi svarer hurtigt via mail og telefon.">
+    <meta name="keywords" content="kontakt ErhvervsAward, FAQ, Erhvervspris Slagelse, sponsorat, spørgsmål, telefon, mail, kontaktformular, event Slagelse, hjælp">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="ErhvervsAward">
+    <meta name="language" content="da">
+    <meta name="copyright" content="© 2025 ErhvervsAward Slagelse">
+
+    <meta property="og:title" content="Kontakt os – ErhvervsAward Slagelse">
+    <meta property="og:description" content="Har du spørgsmål? Kontakt ErhvervsAward Slagelse via mail, telefon eller kontaktformular.">
+    <meta property="og:url" content="https://erhvervsaward.dk/kontakt">
+    <meta property="og:image" content="https://erhvervsaward.dk/pic/erhvervspris.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ErhvervsAward Slagelse">
+
+    <link rel="canonical" href="https://erhvervsaward.dk/kontakt-os">
+
     <?php
     include("includes/font.php");
     ?>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ErhvervsAward Slagelse",
+            "url": "https://erhvervsaward.dk",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://erhvervsaward.dk/pic/logo.png"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+45 51 26 22 99",
+                "email": "hsm@event-slagelse.dk",
+                "contactType": "customer service",
+                "availableLanguage": "Danish"
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -43,7 +75,7 @@ include("includes/navbar.php");
         <p class="text-muted">
             Tlf: <a href="tel:+4551262299">+45 51 26 22 99</a>
             <br>
-            Mail: <a href="email:hsm@event-slagelse.dk">hsm@event-slagelse.dk</a>
+            Mail: <a href="mailto:hsm@event-slagelse.dk">hsm@event-slagelse.dk</a>
         </p>
 
         <p class="text-muted mb-5">
@@ -85,6 +117,7 @@ include("includes/navbar.php");
                 </div>
             </section>
         </form>
+
     </article>
 </main>
 
