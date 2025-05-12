@@ -49,7 +49,7 @@ include("includes/navbar.php");
         <!-- Medlem 1 -->
         <article class="col-md-5 col-lg-4 member">
             <figure class="photo mx-auto">
-                <img src="images/peter.jpg" alt="--" class="img-fluid rounded-circle">
+                <img src="images/peter.jpg" alt="Peter Pedersen – Formand" class="img-fluid rounded-circle">
             </figure>
             <section class="info text-center text-md-start mt-4 pt-3">
                 <h5 class="mb-3">Formand</h5>
@@ -66,7 +66,7 @@ include("includes/navbar.php");
         <!-- Medlem 2 -->
         <article class="col-md-5 col-lg-4 member">
             <figure class="photo mx-auto">
-                <img src="images/lise.jpg" alt="---" class="img-fluid rounded-circle">
+                <img src="images/lise.jpg" alt="Lise Andersen – Projektkoordinator" class="img-fluid rounded-circle">
             </figure>
             <section class="info text-center text-md-start mt-4 pt-3">
                 <h5 class="mb-3">Projektkoordinator</h5>
@@ -83,7 +83,7 @@ include("includes/navbar.php");
         <!-- Medlem 3 -->
         <article class="col-md-5 col-lg-4 member">
             <figure class="photo mx-auto">
-                <img src="images/amir.jpg" alt="---" class="img-fluid rounded-circle">
+                <img src="images/amir.jpg" alt="Amir Khan – Marketingansvarlig" class="img-fluid rounded-circle">
             </figure>
             <section class="info text-center text-md-start mt-4 pt-3">
                 <h5 class="mb-3">Marketingansvarlig</h5>
@@ -100,7 +100,7 @@ include("includes/navbar.php");
         <!-- Medlem 4 -->
         <article class="col-md-5 col-lg-4 member">
             <figure class="photo mx-auto">
-                <img src="images/tulle.jpg" alt="--" class="img-fluid rounded-circle">
+                <img src="images/tulle.jpg" alt="Tulle A – Marketingansvarlig" class="img-fluid rounded-circle">
             </figure>
             <section class="info text-center text-md-start mt-4 pt-3">
                 <h5 class="mb-3">Marketingansvarlig</h5>

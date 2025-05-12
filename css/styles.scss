@@ -376,24 +376,29 @@ a:hover {
 
 .team {
   padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5%;
 }
 
 .team-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
   justify-content: center;
 }
 
 .member {
   background-color: #363636;
   border-radius: 8px;
-  padding-top: 12%;
+  padding-top: 10%;
   padding-bottom: 5%;
   position: relative;
   text-align: center;
   color: white;
   flex: 0 1 calc(50% - 2rem);
+  margin-bottom: 3rem;
 }
 
 .member .info {
@@ -412,7 +417,14 @@ a:hover {
 
 @media (max-width: 768px) {
   .member {
-    flex: 0 1 100%;
+    flex: 1 1 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .member {
+    flex: 1 1 100%;
     margin-bottom: 2rem;
   }
 }
@@ -424,7 +436,7 @@ a:hover {
   border: 2px solid #d5c7b7;
   border-radius: 50%;
   position: absolute;
-  top: -17.5%;
+  top: -15%;
   left: 50%;
   transform: translateX(-50%);
   overflow: hidden;
@@ -435,16 +447,6 @@ a:hover {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-}
-
-.info h2 {
-  font-size: 1em;
-  margin-bottom: 0.5em;
-}
-
-.info p {
-  font-size: 0.95em;
-  line-height: 1.4;
 }
 /*Om os slut*/
 
