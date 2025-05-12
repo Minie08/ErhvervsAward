@@ -81,8 +81,7 @@ include("includes/navbar.php");
             <figure class="photo mx-auto">
                 <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
-            <section class="info text-center text-md-start mt-4 pt-3">
-                <h5 class="mb-3">Formand</h5>
+            <section class="info text-start mt-3 pt-3">
                 <p class="mb-1">Peter Pedersen</p>
                 <p class="mb-1">
                     <a class="team-phone" href="tel:22566688">Tlf.: 22 56 66 88</a>
@@ -98,8 +97,7 @@ include("includes/navbar.php");
             <figure class="photo mx-auto">
                 <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
-            <section class="info text-center text-md-start mt-4 pt-3">
-                <h5 class="mb-3">Projektkoordinator</h5>
+            <section class="info text-start mt-3 pt-3">
                 <p class="mb-1">Lise Andersen</p>
                 <p class="mb-1">
                     <a class="team-phone" href="tel:23456789">Tlf.: 23 45 67 89</a>
@@ -115,8 +113,7 @@ include("includes/navbar.php");
             <figure class="photo mx-auto">
                 <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
-            <section class="info text-center text-md-start mt-4 pt-3">
-                <h5 class="mb-3">Marketingansvarlig</h5>
+            <section class="info text-start mt-3 pt-3">
                 <p class="mb-1">Amir Khan</p>
                 <p class="mb-1">
                     <a class="team-phone" href="tel:44556677">Tlf.: 44 55 66 77</a>
@@ -132,8 +129,7 @@ include("includes/navbar.php");
             <figure class="photo mx-auto">
                 <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
-            <section class="info text-center text-md-start mt-4 pt-3">
-                <h5 class="mb-3">Marketingansvarlig</h5>
+            <section class="info text-start mt-3 pt-3">
                 <p class="mb-1">Tulle A</p>
                 <p class="mb-1">
                     <a class="team-phone" href="tel:44556677">Tlf.: 44 55 66 77</a>
