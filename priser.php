@@ -31,7 +31,7 @@ include("includes/navbar.php");
 <main>
     <div class="content-wrapper">
         <article class="row gx-2">
-            <aside class="sidebar text-center col-2">
+            <aside class="sidebar text-center w-100 mb-3">
                 <nav id="simple-list-example"
                      class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
                     <a class="p-1 rounded" href="#simple-list-item-1">Frontløberprisen</a>
@@ -43,10 +43,9 @@ include("includes/navbar.php");
                     <a class="p-1 rounded" href="#simple-list-item-7">Årets leder</a>
                 </nav>
             </aside>
+        </article>
 
-            <div class="sidebar-btn-wrapper col-2 mt-3">
-                <a href="nominering.php" class="sidebar-btn">Læs om nomineringer</a>
-            </div>
+
 
             <article class="main-text">
                 <section data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
