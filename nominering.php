@@ -33,7 +33,7 @@ include("includes/navbar.php");
     <h2 class="fw-bold mb-3">Nominering</h2>
     <article>
         <p class="text-muted">
-            Hvem vil du nominere?
+            Nominer en kandidat for 2025
         </p>
 
         <p class="text-muted">
@@ -66,9 +66,15 @@ include("includes/navbar.php");
 
         <section class="row g-3 w-100 mt-2">
             <div class="col-12">
-                <label for="nomineret">Nominerets navn</label>
+                <label for="nomineret">Kandidaten</label>
                 <input type="text" class="form-control" id="nomineret" name="nomineret" required>
             </div>
+
+            <div class="col-12">
+                <label for="nomineret">Virksomhed</label>
+                <input type="text" class="form-control" id="virksomhed" name="virksomhed" required>
+            </div>
+
             <div class="col-12">
                 <label for="pris">Nominering</label>
                 <select class="form-select" id="pris" name="pris" required>
