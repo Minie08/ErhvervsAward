@@ -73,7 +73,7 @@ include ("includes/navbar.php");
     <div class="container text-center">
         <h1 class="display-5 text-center fw-bold">ErhvervsAward</h1>
         <p class="lead mx-auto" style="max-width: 700px;">
-            Vær med når vi hylder årets erhvervsliv i Slagelse Kommune.
+            Vær med når vi hylder årets erhvervsliv i Slagelse Kommune.<br>
             Hvert år samles virksomheder, store som små og samarbejdspartnere til en festlig aften,
             hvor vi fejrer de mange lokale erhvervssucceser.
         </p>
