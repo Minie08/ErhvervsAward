@@ -28,69 +28,67 @@ require "settings/init.php";
 include("includes/navbar.php");
 ?>
 
-<!--Om os-->
-<main>
-    <section class="container py-5 omos">
-        <h2 class="mb-4">Om ErhvervsAward</h2>
-        <p>
-            ErhvervsAward startede i 2015, først som en del af Slagelse Kommunes måder at støtte
-            op om og hylde det lokale erhvervsliv.
-        </p>
-        <p>
-            Der blev taget en politisk beslutning i 2024 om at
-            kommunens engagement i eventet stoppede, og et miks af erhvervsforeninger overtog
-            dernæst eventet.
-        </p>
-        <p>
-            Eventet er 100% sponsorfinansieret.
-        </p>
-    </section>
+<header class="intro py-5">
+    <div class="intro-container text-center text-md-start">
+        <section class="intro-box text-white p-5">
+            <h1>Hvem er vi?</h1>
+            <p>
+                Erhvervsaward startede i 2015, først som en del af Slagelse Kommunes måder at støtte op om og hylde det lokale erhvervsliv.
+                Det blev taget godt imod, og i foråret 2022 er det kommunens engagement vi ønsker at stoppe, og i stedet drive
+                erhvervsawarden privat og uafhængigt. Det skal ske på skuldrene af målet om at styrke og motivere små og store virksomheder.
+                Siden vi fik Klaus på til at designe vores logo, har mange ønsket en bestemt grafisk identitet, hjemmeside mm. Eventet er nu
+                100% sponsorfinansieret.
+            </p>
+        </section>
+    </div>
+</header>
 
-    <section class="container row team-cards mx-auto" style="margin-bottom: 5%">
-        <article class="col-12 col-sm-6 col-md-4">
-            <figure class="card omoscard h-100">
-                <img src="pic/placeholder.png" class="card-img-top" alt="Billede af formand">
-                <figcaption class="card-body">
-                    <h3 class="card-title">Formand</h3>
-                    <p class="card-text">Hans Hansen</p>
-                    <div class="social-icons">
-                        <a class="profilelinks" href="#" aria-label="Twitter profil"><i class="fab fa-x-twitter"></i></a>
-                        <a class="profilelinks" href="#" aria-label="Linkedin profil"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="profilelinks" href="#" aria-label="Facebook profil"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="col-12 col-sm-6 col-md-4">
-            <figure class="card omoscard h-100">
-                <img src="pic/placeholder.png" class="card-img-top" alt="Billede af formand">
-                <figcaption class="card-body">
-                    <h3 class="card-title">Næstformand</h3>
-                    <p class="card-text">Hans Hansen</p>
-                    <div class="social-icons">
-                        <a class="profilelinks" href="#" aria-label="Twitter profil"><i class="fab fa-x-twitter"></i></a>
-                        <a class="profilelinks" href="#" aria-label="Linkedin profil"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="profilelinks" href="#" aria-label="Facebook profil"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="col-12 col-sm-6 col-md-4">
-            <figure class="card omoscard h-100">
-                <img src="pic/placeholder.png" class="card-img-top" alt="Billede af formand">
-                <figcaption class="card-body">
-                    <h3 class="card-title">Kasser</h3>
-                    <p class="card-text">Hans Hansen</p>
-                    <div class="social-icons">
-                        <a class="profilelinks" href="#" aria-label="Twitter profil"><i class="fab fa-x-twitter"></i></a>
-                        <a class="profilelinks" href="#" aria-label="Linkedin profil"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="profilelinks" href="#" aria-label="Facebook profil"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </figcaption>
-            </figure>
-        </article>
-    </section>
+<main class="team container py-5">
+    <div class="container">
+        <div class="row justify-content-center g-4">
+            <article class="col-md-5 col-lg-4 position-relative member">
+                <figure class="photo" aria-hidden="true"></figure>
+                <section class="info text-center mt-5 pt-4">
+                    <h2 class="h6">Formand</h2>
+                    <p class="mb-1">Peter Pedersen</p>
+                    <p class="mb-1">Tlf.: 22 56 66 88</p>
+                    <a href="mailto:pepe@erhvervsawards.dk">pepe@erhvervsawards.dk</a>
+                </section>
+            </article>
+
+            <article class="col-md-5 col-lg-4 position-relative member">
+                <figure class="photo" aria-hidden="true"></figure>
+                <section class="info text-center mt-5 pt-4">
+                    <h2 class="h6">Formand</h2>
+                    <p class="mb-1">Peter Pedersen</p>
+                    <p class="mb-1">Tlf.: 22 56 66 88</p>
+                    <a href="mailto:pepe@erhvervsawards.dk">pepe@erhvervsawards.dk</a>
+                </section>
+            </article>
+
+            <article class="col-md-5 col-lg-4 position-relative member">
+                <figure class="photo" aria-hidden="true"></figure>
+                <section class="info text-center mt-5 pt-4">
+                    <h2 class="h6">Formand</h2>
+                    <p class="mb-1">Peter Pedersen</p>
+                    <p class="mb-1">Tlf.: 22 56 66 88</p>
+                    <a href="mailto:pepe@erhvervsawards.dk">pepe@erhvervsawards.dk</a>
+                </section>
+            </article>
+
+            <article class="col-md-5 col-lg-4 position-relative member">
+                <figure class="photo" aria-hidden="true"></figure>
+                <section class="info text-center mt-5 pt-4">
+                    <h2 class="h6">Formand</h2>
+                    <p class="mb-1">Peter Pedersen</p>
+                    <p class="mb-1">Tlf.: 22 56 66 88</p>
+                    <a href="mailto:pepe@erhvervsawards.dk">pepe@erhvervsawards.dk</a>
+                </section>
+            </article>
+        </div>
+    </div>
 </main>
+
 
 <?php
 include("includes/footer.php");
