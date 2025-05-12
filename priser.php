@@ -190,7 +190,9 @@ include("includes/navbar.php");
             </section>
         </article>
     </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Gå til toppen">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 </main>
 
 <div class="lightbox-overlay" id="lightbox">
