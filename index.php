@@ -26,7 +26,7 @@ require "settings/init.php";
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="ErhvervsAward">
 
-    <link rel="canonical" href="https://erhvervsaward.dk/"
+    <link rel="canonical" href="https://erhvervsaward.dk/"/>
 
     <?php
     include("includes/font.php");
