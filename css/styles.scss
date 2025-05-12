@@ -396,17 +396,24 @@ a:hover {
   flex: 0 1 calc(50% - 2rem);
 }
 
+.member .info {
+  padding: 0 5%;
+}
+
 .member .info a.team-phone {
   color: white;
+  font-weight: normal;
 }
 
 .member .info a.team-mail {
   color: #E7B938;
+  font-weight: normal;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .member {
     flex: 0 1 100%;
+    margin-bottom: 2rem;
   }
 }
 
@@ -438,12 +445,6 @@ a:hover {
 .info p {
   font-size: 0.95em;
   line-height: 1.4;
-}
-
-.team-link {
-  color: #E7B938;
-  text-decoration: none;
-  font-weight: bold;
 }
 /*Om os slut*/
 
