@@ -264,7 +264,6 @@ a:hover {
   }
 
   .prizeimg{
-    /*margin-bottom: 1rem;*/
     height: auto;
     max-width: 100%;
   }
@@ -287,9 +286,7 @@ a:hover {
   }
   #simple-list-example{
     flex-direction: column;
-    /*flex-wrap: wrap;*/
     justify-content: flex-start;
-    /*gap: 0.5em;*/
   }
 }
 
@@ -530,6 +527,78 @@ a[href^="mailto:"] {
 .year-gallery.active {
   display: block;
 }
+
+.year-gallery img{
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.gallery-lightbox-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.gallery-lightbox-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery-lightbox-content img {
+  max-width: 100%;
+  max-height: 80vh;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+}
+
+.gallery-lightbox-text h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.gallery-lightbox-close {
+  position: fixed;
+  top: 1.5rem;
+  right: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.gallery-lightbox-close:hover {
+  color: #F0D484;
+}
+
+.gallery-lightbox-trigger {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-lightbox-trigger:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 // Arkiv slut
 
 //Sponsorerne start

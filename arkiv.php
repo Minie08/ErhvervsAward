@@ -86,91 +86,91 @@ include("includes/navbar.php");
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/champagner.jpg" class="img-fluid rounded shadow-sm" alt="champagne fyldes op">
+                            <img src="/pic/arkiv-pic/champagner.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="champagne fyldes op">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/erhvervspris.jpg" class="img-fluid rounded shadow-sm" alt="grangia erhvervspris">
+                            <img src="/pic/arkiv-pic/erhvervspris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="grangia erhvervspris">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/frontløberpris.jpg" class="img-fluid rounded shadow-sm" alt="frontløber (cafe tidslös) og grangia (kærsgaard motorservice) nominerede">
+                            <img src="/pic/arkiv-pic/frontløber-grangia.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="frontløber (cafe tidslös) og grangia (kærsgaard motorservice) nominerede">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/frontløberpris.jpg" class="img-fluid rounded shadow-sm" alt="frontløberpris vinder (idalou)">
+                            <img src="/pic/arkiv-pic/frontløberpris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="frontløberpris vinder (idalou)">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/guitar.jpg" class="img-fluid rounded shadow-sm" alt="guitar spiller">
+                            <img src="/pic/arkiv-pic/guitar.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="guitar spiller">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/harboe-drink.jpg" class="img-fluid rounded shadow-sm" alt="harboe drink fyldes op">
+                            <img src="/pic/arkiv-pic/harboe-drink.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="harboe drink fyldes op">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/harboe-flaske.jpg" class="img-fluid rounded shadow-sm" alt="harboe kildevand flaske på bord med glas">
+                            <img src="/pic/arkiv-pic/harboe-flaske.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="harboe kildevand flaske på bord med glas">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/initiativpris.jpg" class="img-fluid rounded shadow-sm" alt="initiativpris vinder (slagelse vinkompagni)">
+                            <img src="/pic/arkiv-pic/initiativpris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="initiativpris vinder (slagelse vinkompagni)">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/kameramand.jpg" class="img-fluid rounded shadow-sm" alt="kameramand filmer">
+                            <img src="/pic/arkiv-pic/kameramand.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="kameramand filmer">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/miljøpris.jpg" class="img-fluid rounded shadow-sm" alt="klima og miljøpris vinder (ebk-huse)">
+                            <img src="/pic/arkiv-pic/miljøpris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="klima og miljøpris vinder (ebk-huse)">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/musikker.jpg" class="img-fluid rounded shadow-sm" alt="scene, musikker, trummer">
+                            <img src="/pic/arkiv-pic/musikker.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="scene, musikker, trummer">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/poplic-service.jpg" class="img-fluid rounded shadow-sm" alt="poplic service trummer">
+                            <img src="/pic/arkiv-pic/poplic-service.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="poplic service trummer">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/scene-dame.jpg" class="img-fluid rounded shadow-sm" alt="dame på scenen til arrangementet">
+                            <img src="/pic/arkiv-pic/scene-dame.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="dame på scenen til arrangementet">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/stor-skærm.jpg" class="img-fluid rounded shadow-sm" alt="storskærm til eventet">
+                            <img src="/pic/arkiv-pic/stor-skærm.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="storskærm til eventet">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/årets-leder.jpg" class="img-fluid rounded shadow-sm" alt="åretsleder pris vinder (slagelse sygehus, akutafdelingen">
+                            <img src="/pic/arkiv-pic/årets-leder.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="åretsleder pris vinder (slagelse sygehus, akutafdelingen">
                         </figure>
                     </article>
                 </div>
@@ -183,6 +183,15 @@ include("includes/navbar.php");
         </section>
 </main>
 
+<div class="gallery-lightbox-overlay" id="gallery-lightbox">
+    <button class="gallery-lightbox-close" id="gallery-lightboxClose">&times;</button>
+    <div class="gallery-lightbox-content">
+        <img src="" alt="Stort billede">
+        <div class="gallery-lightbox-text" id="gallery-lightboxText"></div>
+    </div>
+</div>
+
+
 <?php
 include("includes/footer.php");
 ?>
@@ -191,6 +200,10 @@ include("includes/footer.php");
     const yearButtons = document.querySelectorAll('.year-btn');
     const gallery2024 = document.getElementById('gallery-2024');
     const galleryEmpty = document.getElementById('gallery-empty');
+    const galleryLightbox = document.getElementById("gallery-lightbox");
+    const galleryLightboxImg = galleryLightbox.querySelector("img");
+    const galleryLightboxClose = document.getElementById("gallery-lightboxClose");
+    const galleryLightboxText = document.getElementById("gallery-lightboxText");
 
     yearButtons.forEach(button => {
         button.addEventListener('click', () => {
@@ -204,7 +217,42 @@ include("includes/footer.php");
             }
         });
     });
-</script
+
+
+    let mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    document.querySelectorAll(".gallery-lightbox-trigger").forEach(img => {
+        img.addEventListener('click', () => {
+            galleryLightboxImg.src = img.src;
+            galleryLightboxText.textContent = img.alt;
+            galleryLightbox.style.display = 'flex';
+        });
+    });
+
+    galleryLightbox.addEventListener('click', (e) => {
+        if (e.target === galleryLightbox || e.target === galleryLightboxClose) {
+            galleryLightbox.style.display = 'none';
+            galleryLightboxImg.src = '';
+        }
+    });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
