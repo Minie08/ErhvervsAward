@@ -92,6 +92,22 @@ a:hover {
   color: #E7B938;
 }
 
+.navbar-brand img.small-logo {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .navbar-brand img.large-logo {
+    display: none;
+  }
+
+  .navbar-brand img.small-logo {
+    display: block;
+    width: 50px;
+  }
+}
+
+
 // Navbar slut
 // Footer
 .footer-container {
