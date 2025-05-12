@@ -61,7 +61,7 @@ include("includes/navbar.php");
 
 <header class="intro py-5">
     <div class="intro-container text-center text-md-start">
-        <section class="intro-box text-white p-5">
+        <section class="intro-box bg-dark text-white p-5">
             <h2 class="fw-bold mb-3">Om ErhvervsAward</h2>
             <p>
                 ErhvervsAward blev grundlagt i 2015 som en del af Slagelse Kommunes indsats for at støtte og anerkende det lokale erhvervsliv.<br>
@@ -77,7 +77,7 @@ include("includes/navbar.php");
     <div class="team-row justify-content-center g-5">
 
         <!-- Medlem 1 -->
-        <article class="col-md-5 col-lg-4 member">
+        <article class="col-md-5 col-lg-4 member bg-dark">
             <figure class="photo mx-auto">
                 <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
@@ -93,7 +93,7 @@ include("includes/navbar.php");
         </article>
 
         <!-- Medlem 2 -->
-        <article class="col-md-5 col-lg-4 member">
+        <article class="col-md-5 col-lg-4 member bg-dark">
             <figure class="photo mx-auto">
                 <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
@@ -109,7 +109,7 @@ include("includes/navbar.php");
         </article>
 
         <!-- Medlem 3 -->
-        <article class="col-md-5 col-lg-4 member">
+        <article class="col-md-5 col-lg-4 member bg-dark">
             <figure class="photo mx-auto">
                 <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
@@ -125,7 +125,7 @@ include("includes/navbar.php");
         </article>
 
         <!-- Medlem 4 -->
-        <article class="col-md-5 col-lg-4 member">
+        <article class="col-md-5 col-lg-4 member bg-dark">
             <figure class="photo mx-auto">
                 <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>

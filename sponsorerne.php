@@ -95,7 +95,7 @@ include("includes/navbar.php");
         Vi takker de engagerede virksomheder og organisationer, der med deres bidrag muliggør, at
         den offentlige stolthed kan løfte og anerkende de lokale erhvervsfolk.
         Denne støtte er uvurderlig, og vi sætter stor pris på deres opbakning. Nedenfor kan du se
-            hvilke virksomheder der sponsorerer og med hvad. Vil du gerne være en del af vores sponsorer?
+            hvilke virksomheder der sponsorerer og med hvad. Vil du gerne være en del af vores sponsorer?<br>
             Så kontakt os gerne <a href="kontakt-os.php">her</a>
         </p>
     </div>
@@ -108,7 +108,7 @@ include("includes/navbar.php");
                     <img src="/pic/Beierholm%20Logo.png" alt="Beierholm logo" class="img-fluid">
                 </div>
                 <figcaption class="sponsor-text text-center text-md-start mt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Uddeler Iværksætterprisen, som består af 10.000 kr. samt gratis rådgivningstimer.
                 </figcaption>
             </figure>
         </article>
@@ -119,7 +119,7 @@ include("includes/navbar.php");
                     <img src="/pic/BusinessSlagelse%20Logo.png" alt="Business Slagelse logo" class="img-fluid">
                 </div>
                 <figcaption class="sponsor-text text-center text-md-start">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Uddeler Frontløberprisen sammen med 5 andre virksomheder, som består af 10.000 kr. samt finansiel rådgivning af Dansk Revision, annoncer og rådgivning fra Sjællandske til en værdi af kr. 10000 og et lokalt kunstværk fra Destination Sjælland.
                 </figcaption>
             </figure>
         </article>
@@ -130,7 +130,7 @@ include("includes/navbar.php");
                     <img src="/pic/Envafors%20Logo.png" alt="Envafors logo" class="img-fluid">
                 </div>
                 <figcaption class="sponsor-text text-center text-md-start">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Uddeler Klima- og Miljøpris i samarbejde med Sydbank
                 </figcaption>
             </figure>
         </article>
@@ -141,8 +141,7 @@ include("includes/navbar.php");
                     <img src="/pic/KorsørErhvervsforening%20Logo.png" alt="Korsør Erhvervsforening logo" class="img-fluid">
                 </div>
                 <figcaption class="sponsor-text text-center text-md-start">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </figcaption>
+                    Uddeler Frontløberprisen sammen med 5 andre virksomheder, som består af 10.000 kr. samt finansiel rådgivning af Dansk Revision, annoncer og rådgivning fra Sjællandske til en værdi af kr. 10000 og et lokalt kunstværk fra Destination Sjælland.                </figcaption>
             </figure>
         </article>
 
@@ -163,8 +162,7 @@ include("includes/navbar.php");
                     <img src="/pic/SkælskørErhvervs%20Logo.png" alt="Skælskør Erhvervs logo" class="img-fluid">
                 </div>
                 <figcaption class="sponsor-text text-center text-md-start">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </figcaption>
+                    Uddeler Frontløberprisen sammen med 5 andre virksomheder, som består af 10.000 kr. samt finansiel rådgivning af Dansk Revision, annoncer og rådgivning fra Sjællandske til en værdi af kr. 10000 og et lokalt kunstværk fra Destination Sjælland.                </figcaption>
             </figure>
         </article>
 
@@ -174,7 +172,7 @@ include("includes/navbar.php");
                     <img src="/pic/Slagelseråd%20Logo.png" alt="Slagelseråd logo" class="img-fluid">
                 </div>
                 <figcaption class="sponsor-text text-center text-md-start">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Uddeler initiativprisen, som består af et kunstværk af den lokale, internationalt anerkendte kunstner Per Hillo.
                 </figcaption>
             </figure>
         </article>
@@ -185,7 +183,7 @@ include("includes/navbar.php");
                     <img src="/pic/Sydbank%20Logo.png" alt="Sydbank logo" class="img-fluid">
                 </div>
                 <figcaption class="sponsor-text text-center text-md-start">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Uddeler Klima- og Miljøpris i samarbejde med Envafors
                 </figcaption>
             </figure>
         </article>
@@ -196,7 +194,7 @@ include("includes/navbar.php");
                     <img src="/pic/Zealand%20Logo.png" alt="Zealand logo" class="img-fluid">
                 </div>
                 <figcaption class="sponsor-text text-center text-md-start">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Uddeler Praktikprisen, lægger rammer til, står for aftenens menu og servering for 450 gæster.
                 </figcaption>
             </figure>
         </article>
