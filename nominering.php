@@ -29,7 +29,7 @@ include("includes/navbar.php");
 ?>
 
 <!--nomineringer-->
-<main class="container-fluid contact py-5">
+<main class="container-fluid contact py-5 text-center text-md-start">
     <h2 class="fw-bold mb-3">Nominering</h2>
     <article>
         <p class="text-muted">
@@ -50,51 +50,51 @@ include("includes/navbar.php");
             <br> Indsend derfor din nominering senest den 1. september 2025
         </p>
     </article>
+
+    <!--Email formular-->
+    <form class="contactform" action="action_page.php">
+        <section class="row g-3 w-100">
+            <div class="col-md-6">
+                <label for="fname">Dit navn</label>
+                <input type="text" class="form-control" id="fname" name="firstname" placeholder="">
+            </div>
+            <div class="col-md-6">
+                <label for="email">Din e-mail</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="" required>
+            </div>
+        </section>
+
+        <section class="row g-3 w-100 mt-2">
+            <div class="col-12">
+                <label for="nomineret">Nominerets navn</label>
+                <input type="text" class="form-control" id="nomineret" name="nomineret" required>
+            </div>
+            <div class="col-12">
+                <label for="pris">Nominering</label>
+                <select class="form-select" id="pris" name="pris" required>
+                    <option selected disabled>Vælg venligst nominerings pris</option>
+                    <option value="1">Frontløberprisen</option>
+                    <option value="2">Grangia</option>
+                    <option value="3">Initiativprisen</option>
+                    <option value="4">Iværksætterprisen</option>
+                    <option value="5">Klima- og miljøprisen</option>
+                    <option value="6">Praktikprisen</option>
+                    <option value="7">Årets leder</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="row g-3 w-100 mt-2">
+            <div class="col-12">
+                <label for="subject">Begrundelse for nomineringen</label>
+                <textarea class="form-control" id="subject" name="subject" placeholder="Skriv din begrundelse her.." style="height:100px" required></textarea>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-cta2 w-100" type="submit">Send</button>
+            </div>
+        </section>
+    </form>
 </main>
-
-        <!--Email formular-->
-<form class="contactform" action="action_page.php">
-    <section class="row g-3 w-100">
-        <div class="col-md-6">
-            <label for="fname">Dit navn</label>
-            <input type="text" class="form-control" id="fname" name="firstname" placeholder="">
-        </div>
-        <div class="col-md-6">
-            <label for="email">Din e-mail</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="" required>
-        </div>
-    </section>
-
-    <section class="row g-3 w-100 mt-2">
-        <div class="col-12">
-            <label for="nomineret">Nominerets navn</label>
-            <input type="text" class="form-control" id="nomineret" name="nomineret" required>
-        </div>
-        <div class="col-12">
-            <label for="pris">Nominering</label>
-            <select class="form-select" id="pris" name="pris" required>
-                <option selected disabled>Vælg pris nominering</option>
-                <option value="1">Frontløberprisen</option>
-                <option value="2">Grangia</option>
-                <option value="3">Initiativprisen</option>
-                <option value="4">Iværksætterprisen</option>
-                <option value="5">Klima- og miljøprisen</option>
-                <option value="6">Praktikprisen</option>
-                <option value="7">Årets leder</option>
-            </select>
-        </div>
-    </section>
-
-    <section class="row g-3 w-100 mt-2">
-        <div class="col-12">
-            <label for="subject">Begrundelse for nomineringen</label>
-            <textarea class="form-control" id="subject" name="subject" placeholder="Skriv her.." style="height:100px" required></textarea>
-        </div>
-        <div class="col-12">
-            <button class="btn btn-cta2 w-100" type="submit">Send</button>
-        </div>
-    </section>
-</form>
 
 <p class="text-muted mb-5 text-center">
     Har du spørgsmål vedrørende nomineringen? Så kan du kontakte os <a href="kontakt-os.php">her</a>.

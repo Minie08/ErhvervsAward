@@ -30,43 +30,59 @@ include("includes/navbar.php");
 
 <!--Kontakt os-->
 
-<main class="container-fluid contact col-md-12">
-    <h2>Kontakt os</h2>
+<main class="container-fluid contact col-md-12 py-5 text-center text-md-start">
+    <h2 class="fw-bold mb-3">Kontakt os</h2>
     <article>
-        <p>Mandag - Fredag kl. 10.00 - 14.00
-            <br>
+        <p class="text-muted">
+            Træffetidspunkter: <br>
+            Mandag – Fredag kl. 10.00 - 14.00 <br>
             Lørdag, søndag og helligdage holder vi lukket
             <br>
+        </p>
+
+        <p class="text-muted">
             Tlf: <a href="tel:+4551262299">+45 51 26 22 99</a>
             <br>
             Mail: <a href="email:hsm@event-slagelse.dk">hsm@event-slagelse.dk</a>
-            <br><br>
-            Har du spørgsmål til eventet sidder vi altid klar på telefonen og svarer på mails indenfor kort tid.
-            <br>
-            Du kan også altid kontakte os ved at udfylde nedenstående formular.
-            <br>
         </p>
+
+        <p class="text-muted mb-5">
+            Har du spørgsmål til arrangementet? <br>
+            Du er altid velkommen til at ringe til os, og vi bestræber os på at besvare e-mails hurtigst muligt. <br>
+            Du kan også udfylde kontaktformularen herunder – så vender vi tilbage snarest.
+        </p>
+
         <!--Email formular-->
         <form class="contactform" action="action_page.php">
             <section class="row g-3 w-100">
                 <div class="col-md-6">
-                    <label for="fname">Fornavn:</label>
-                    <input type="text" class="form-control" id="fname" name="firstname" placeholder="Fornavn...">
+                    <label for="fname" class="form-label">Fornavn</label>
+                    <input type="text" class="form-control" id="fname" name="firstname" placeholder="">
                 </div>
                 <div class="col-md-6">
-                    <label for="lname">Efternavn:</label>
-                    <input type="text" class="form-control" id="lname" name="lastname" placeholder="Efternavn...">
+                    <label for="lname" class="form-label">Efternavn</label>
+                    <input type="text" class="form-control" id="lname" name="lastname" placeholder="">
                 </div>
             </section>
-            <section class="row g-3 w-100">
-            <label for="email">Email adresse:</label>
-            <input type="email" class="form-control" id="floatingInput" placeholder="navn@eksempel.dk" required>
+
+            <section class="row g-3 w-100 mt-2">
+                <div class="col-12">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="" required>
+                </div>
             </section>
-            <section class="row g-3 w-100">
-            <label for="subject">Besked</label>
-            <textarea class="form-control" id="subject" name="subject" placeholder="Skriv besked her..."
-                      style="height:100px"></textarea>
-                <button class="form-control btn-cta2 btn-cta2hover" type="submit">Send</button>
+
+            <section class="row g-3 w-100 mt-2">
+                <div class="col-12">
+                    <label for="subject" class="form-label">Besked</label>
+                    <textarea class="form-control" id="subject" name="subject" placeholder="Skriv din besked her..." style="height: 100px;" required></textarea>
+                </div>
+            </section>
+
+            <section class="row g-3 w-100 mt-2">
+                <div class="col-12">
+                    <button class="btn btn-cta2 w-100" type="submit">Send</button>
+                </div>
             </section>
         </form>
     </article>
