@@ -62,7 +62,7 @@ include("includes/navbar.php");
 
 <main class="py-5 container">
     <section class="container py-5" aria-labelledby="billedarkiv">
-            <header class="mb-4 text-center">
+            <header class="mb-4 text-center text-md-start">
                 <h2 id="billedarkiv" class="fw-bold">Billedarkiv</h2>
                 <p class="text-muted">
                     Har du billeder du vil dele med os som blev taget til arrangementet, så hører vi gerne fra dig.<br>
@@ -70,7 +70,7 @@ include("includes/navbar.php");
                 </p>
 
                 <!-- Årstal -->
-                <nav class="d-flex justify-content-center gap-3 my-4" aria-label="Vælg årstal">
+                <nav class="d-flex text-center text-md-start gap-3 my-4" aria-label="Vælg årstal">
                     <button class="btn btn-link text-decoration-none fw-bold year-btn" data-year="2024">2024</button>
                     <button class="btn btn-link text-decoration-none fw-bold year-btn" data-year="2023">2023</button>
                     <button class="btn btn-link text-decoration-none fw-bold year-btn" data-year="2022">2022</button>
