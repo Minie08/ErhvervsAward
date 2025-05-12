@@ -12,18 +12,77 @@ require "settings/init.php";
 
     <title>Sponsorerne</title>
 
-    <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="description" content="Se alle sponsorer, der støtter ErhvervsAward i Slagelse. Vi takker vores partnere for deres værdifulde støtte til det lokale erhvervsliv.">
+    <meta name="keywords" content="ErhvervsAward sponsorer, sponsorer Slagelse, erhvervssponsorater, virksomheder Slagelse, lokale sponsorer, erhvervssamarbejde, ErhvervsAward 2024, støtte lokale virksomheder">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="ErhvervsAward">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Sponsorerne - ErhvervsAward Slagelse">
+    <meta property="og:description" content="ErhvervsAward takker de virksomheder og organisationer, der støtter det lokale erhvervsliv.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.erhvervsaward.dk/sponsorer.php">
+    <meta property="og:image" content="https://www.erhvervsaward.dk/pic/billede.jpg">
+
+    <link rel="canonical" href="https://www.erhvervsaward.dk/priser.php">
+
     <?php
     include("includes/font.php");
     ?>
+
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "ErhvervsAward Slagelse",
+          "url": "https://www.ditdomæne.dk/sponsorer.php",
+          "logo": "https://www.ditdomæne.dk/pic/logo.png",
+          "description": "ErhvervsAward i Slagelse hylder og støtter lokale virksomheder gennem sponsorater og priser.",
+          "sponsor": [
+            {
+              "@type": "Organization",
+              "name": "Beierholm"
+            },
+            {
+              "@type": "Organization",
+              "name": "Business Slagelse"
+            },
+            {
+              "@type": "Organization",
+              "name": "Envafors"
+            },
+            {
+              "@type": "Organization",
+              "name": "Korsør Erhvervsforening"
+            },
+            {
+              "@type": "Organization",
+              "name": "Skel.dk"
+            },
+            {
+              "@type": "Organization",
+              "name": "Skælskør Erhvervs"
+            },
+            {
+              "@type": "Organization",
+              "name": "Slagelseråd"
+            },
+            {
+              "@type": "Organization",
+              "name": "Sydbank"
+            },
+            {
+              "@type": "Organization",
+              "name": "Zealand"
+}
+          ]
+        }
+    </script>
+    </head>
 
-<body>
+    <body>
 <?php
 include("includes/navbar.php");
 ?>
