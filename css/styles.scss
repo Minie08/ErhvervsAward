@@ -30,25 +30,25 @@ html, body {
   background-color: #EDE1D2;
   font-family: "hahmlet", sans-serif;
 }
-.h1{
+h1{
   font-size: 30px;
   font-style: normal;
   font-weight: 900;
 }
 
-.h2{
+h2{
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
 }
 
-.h3{
+h3{
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
 }
 
-.p{
+p{
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -379,7 +379,6 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 5%;
 }
 
 .team-row {
