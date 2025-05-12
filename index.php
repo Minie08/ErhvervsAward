@@ -65,9 +65,9 @@ include ("includes/navbar.php");
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
-                        <img src="/pic/klima-miljø-v.png" alt="globus med blomst" class="pris-logo mb-3 mt-2">
-                        <h5 class="card-title">Klima- og Miljøpris</h5>
-                        <p class="card-text">Tildeles til den der har gjort en særlig indsats for at beskytte mod klimaforandringer og understøttet et bæredygtigt miljø.</p>
+                        <img src="/pic/grangia-v.png" alt="LED pære med stjerne inden i" class="pris-logo mb-3 img-fluid d-block mx-auto">
+                        <h5 class="card-title">Grangia Erhvervspris</h5>
+                        <p class="card-text">Prisen gives til lokale talenter under 40 år, som gør en positiv forskel og er innovativ samt en stærk netværker.</p>
                     </div>
                 </div>
             </div>
@@ -76,8 +76,8 @@ include ("includes/navbar.php");
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
-                        <img src="/pic/----" alt="-------" class="pris-logo mb-3 mt-2">
-                        <h5 class="card-title">Krise- og rejseprisen</h5>
+                        <img src="/pic/initiativ-v.png" alt="LED pære med lyn inden i" class="pris-logo mb-3">
+                        <h5 class="card-title">Initiativprisen</h5>
                         <p class="card-text">Gives til en virksomhed, der har klaret sig stærkt efter modgang.</p>
                     </div>
                 </div>
@@ -87,15 +87,55 @@ include ("includes/navbar.php");
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body text-center">
-                        <div class="mb-3 placeholder bg-secondary rounded" style="width: 80px; height: 80px; margin: auto;"></div>
-                        <h5 class="card-title">Krise- og rejseprisen</h5>
-                        <p class="card-text">Gives til en virksomhed, der har klaret sig stærkt efter modgang.</p>
+                        <img src="/pic/Iværksætter-v.png" alt="tandhjul med krone inden i" class="pris-logo mb-3">
+                        <h5 class="card-title">Iværksætterprisen</h5>
+                        <p class="card-text">Hylder dem, der med mod, innovation og handlekraft skaber nye virksomheder og løsninger.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Femte-->
+            <div class="col-sm-12 col-md-6 col-lg-6 extra-card d-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="/pic/klima-miljø-v.png" alt="globus med blomst" class="pris-logo mb-3">
+                        <h5 class="card-title">Klima- og Miljøpris</h5>
+                        <p class="card-text">Tildeles til den der har gjort en særlig indsats for at beskytte mod klimaforandringer og understøttet et bæredygtigt miljø.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Sjette-->
+            <div class="col-sm-12 col-md-6 col-lg-6 extra-card d-none">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="/pic/praktikplads-v.png" alt="studenterhue i ikon" class="pris-logo mb-3">
+                        <h5 class="card-title">Praktikprisen</h5>
+                        <p class="card-text">Tildeles til den virksomhed, som har givet særlig gode praktikforløb
+                            for studerende på en af Zealands videregående uddannelser. </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Syvende-->
+            <div class="col-sm-12 col-md-6 col-lg-6 extra-card d-none mx-auto">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="/pic/Leder-v.png" alt="Leder figur med flag i hånden" class="pris-logo mb-3">
+                        <h5 class="card-title">Lederprisen</h5>
+                        <p class="card-text">Hylder lederen, der i sin lederrolle på arbejdspladsen har afgørende betydning for den succes når medarbejdere er glade og trives. </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<div class="text-center mt-4">
+    <button id="showMoreBtn" class="btn btn-cta2">
+        Vis alle <i class="bi bi-chevron-down"></i>
+    </button>
+</div>
 
 <section class="highlight py-5">
     <div class="container">
@@ -111,6 +151,18 @@ include ("includes/sponsor-bar.php");
 <?php
 include ("includes/footer.php");
 ?>
+
+<script>
+    const showMoreBtn = document.getElementById("showMoreBtn");
+    const hiddenCards = document.querySelectorAll(".extra-card");
+
+    showMoreBtn.addEventListener("click", function () {
+        hiddenCards.forEach(card => {
+            card.classList.remove("d-none");
+        });
+        showMoreBtn.style.display = "none";
+    });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", () => {
