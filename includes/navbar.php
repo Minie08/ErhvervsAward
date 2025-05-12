@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-cards" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand" href="/index.php">
-            <img src="/pic/logo.png" alt="Bootstrap" width="250">
+            <img src="/pic/logo.png" alt="Bootstrap" class="large-logo" width="250">
+            <img src="/pic/logomark.png" alt="Small Logo" class="small-logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
