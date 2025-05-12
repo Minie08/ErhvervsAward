@@ -28,4 +28,9 @@
     })(document);
 </script>
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap" rel="stylesheet">
+
 <script src="https://kit.fontawesome.com/c32d07d51f.js" crossorigin="anonymous"></script>

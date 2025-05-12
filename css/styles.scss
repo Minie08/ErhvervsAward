@@ -28,9 +28,14 @@ html, body {
   height: 100%;
   margin: 0;
   background-color: #EDE1D2;
-  font-family: "hahmlet", sans-serif;
+  font-family: 'Hahmlet', serif;
 }
-h1{
+
+.wf-active body {
+  font-family: 'forma-djr-display', 'Hahmlet', serif;
+}
+
+  h1{
   font-size: 30px;
   font-style: normal;
   font-weight: 900;
