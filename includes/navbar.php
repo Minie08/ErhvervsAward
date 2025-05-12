@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-dark" id="navbar">
+<nav class="navbar navbar-expand-lg bg-cards" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand" href="/index.php">
             <img src="/pic/logo.png" alt="Bootstrap" width="250">

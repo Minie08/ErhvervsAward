@@ -33,11 +33,10 @@ include("includes/navbar.php");
         <section class="intro-box text-white p-5">
             <h2 class="fw-bold mb-3">Om ErhvervsAward</h2>
             <p>
-                Erhvervsaward startede i 2015, først som en del af Slagelse Kommunes måder at støtte op om og hylde det lokale erhvervsliv.
-                Det blev taget godt imod, og i foråret 2022 er det kommunens engagement vi ønsker at stoppe, og i stedet drive
-                erhvervsawarden privat og uafhængigt. Det skal ske på skuldrene af målet om at styrke og motivere små og store virksomheder.
-                Siden vi fik Klaus på til at designe vores logo, har mange ønsket en bestemt grafisk identitet, hjemmeside mm. Eventet er nu
-                100% sponsorfinansieret.
+                ErhvervsAward blev grundlagt i 2015 som en del af Slagelse Kommunes indsats for at støtte og anerkende det lokale erhvervsliv.<br>
+                I 2024 blev det besluttet, at kommunen ikke længere skulle spille en aktiv rolle i eventet, og ansvaret blev overdraget til en styregruppe.<br>
+                Efter kommunens tilbagetrækning i 2023 blev der handlet hurtigt for at sikre, at eventet kunne fortsætte.<br>
+                I dag er ErhvervsAward 100% sponsorfinansieret og fortsætter med at fejre og anerkende lokale erhvervslivets succeser.
             </p>
         </section>
     </div>
@@ -49,7 +48,7 @@ include("includes/navbar.php");
         <!-- Medlem 1 -->
         <article class="col-md-5 col-lg-4 member">
             <figure class="photo mx-auto">
-                <img src="images/peter.jpg" alt="Peter Pedersen – Formand" class="img-fluid rounded-circle">
+                <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
             <section class="info text-center text-md-start mt-4 pt-3">
                 <h5 class="mb-3">Formand</h5>
@@ -66,7 +65,7 @@ include("includes/navbar.php");
         <!-- Medlem 2 -->
         <article class="col-md-5 col-lg-4 member">
             <figure class="photo mx-auto">
-                <img src="images/lise.jpg" alt="Lise Andersen – Projektkoordinator" class="img-fluid rounded-circle">
+                <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
             <section class="info text-center text-md-start mt-4 pt-3">
                 <h5 class="mb-3">Projektkoordinator</h5>
@@ -83,7 +82,7 @@ include("includes/navbar.php");
         <!-- Medlem 3 -->
         <article class="col-md-5 col-lg-4 member">
             <figure class="photo mx-auto">
-                <img src="images/amir.jpg" alt="Amir Khan – Marketingansvarlig" class="img-fluid rounded-circle">
+                <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
             <section class="info text-center text-md-start mt-4 pt-3">
                 <h5 class="mb-3">Marketingansvarlig</h5>
@@ -100,7 +99,7 @@ include("includes/navbar.php");
         <!-- Medlem 4 -->
         <article class="col-md-5 col-lg-4 member">
             <figure class="photo mx-auto">
-                <img src="images/tulle.jpg" alt="Tulle A – Marketingansvarlig" class="img-fluid rounded-circle">
+                <img src="pic/placeholder.png" alt="billede af medlem" class="img-fluid rounded-circle">
             </figure>
             <section class="info text-center text-md-start mt-4 pt-3">
                 <h5 class="mb-3">Marketingansvarlig</h5>
