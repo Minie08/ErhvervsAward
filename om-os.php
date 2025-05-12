@@ -10,17 +10,48 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>ErhvervsAward</title>
+    <title>Om ErhvervsAward</title>
 
-    <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="description" content="Læs mere om ErhvervsAward – en prisuddeling der hylder og anerkender det lokale erhvervsliv i Slagelse.">
+    <meta name="keywords" content="ErhvervsAward, Slagelse, erhvervspris, lokale virksomheder, prisuddeling, sponsorater">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="ErhvervsAward">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Om ErhvervsAward – Lokalt erhvervsliv i fokus">
+    <meta property="og:description" content="ErhvervsAward hylder og anerkender det lokale erhvervsliv i Slagelse. Læs om vores historie og team.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.erhvervsawards.dk/om-os.php">
+    <meta property="og:image" content="https://www.erhvervsawards.dk/pic/og-image.jpg"> <!-- skift evt. til dit rigtige billede -->
+
+    <link rel="canonical" href="https://erhvervsaward.dk/om-os">
+
     <?php
     include("includes/font.php");
     ?>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ErhvervsAward",
+            "url": "https://www.erhvervsawards.dk",
+            "logo": "https://www.erhvervsawards.dk/pic/logo.png",
+            "sameAs": [],
+            "description": "ErhvervsAward fejrer det lokale erhvervsliv i Slagelse gennem årlige prisuddelinger og events.",
+            "foundingDate": "2015",
+            "location": {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Slagelse",
+                    "addressCountry": "DK"
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
