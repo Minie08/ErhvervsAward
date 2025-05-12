@@ -32,7 +32,7 @@ include("includes/navbar.php");
     <div class="content-wrapper">
         <article class="row gx-2">
             <aside class="sidebar text-center col-2">
-                <div id="simple-list-example"
+                <nav id="simple-list-example"
                      class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
                     <a class="p-1 rounded" href="#simple-list-item-1">Frontløberprisen</a>
                     <a class="p-1 rounded" href="#simple-list-item-2">Grangia</a>
@@ -41,11 +41,17 @@ include("includes/navbar.php");
                     <a class="p-1 rounded" href="#simple-list-item-5">Klima- og Miljøprisen</a>
                     <a class="p-1 rounded" href="#simple-list-item-6">Praktikprisen</a>
                     <a class="p-1 rounded" href="#simple-list-item-7">Årets leder</a>
-                </div>
+                </nav>
             </aside>
+
+            <div class="sidebar-btn-wrapper col-2 mt-3">
+                <a href="nominering.php" class="sidebar-btn">Læs om nomineringer</a>
+            </div>
+
             <article class="main-text">
                 <section data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
                          data-bs-smooth-scroll="true" class="scrollspy-example prizeentry" tabindex="0">
+
                     <section class="prizeitem" id="simple-list-item-1">
                         <section class="prize-text">
                             <h2>Frontløberprisen</h2>
@@ -53,8 +59,9 @@ include("includes/navbar.php");
                                 som går forrest med det gode eksempel, skaber positivitet og udvikling omkring sig til
                                 inspiration for andre og til gavn og glæde for kunderne.</p>
                         </section>
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Frontløber prisvinder">
+                        <img src="pic/prisbilleder/frontløberprisen.JPG" class="prizeimg lightbox-trigger" alt="Vinderen af 'Frontløber prisvinder' 2024">
                     </section>
+
                     <section class="prizeitem" id="simple-list-item-2">
                         <section class="prize-text">
                             <h2 id="simple-list-item-2">Grangia</h2>
@@ -69,8 +76,9 @@ include("includes/navbar.php");
                                 positiv forskel for det lokale erhvervsliv, samt har placeret Slagelse på
                                 landkortet.</p>
                         </section>
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Grangia prisvinder">
+                        <img src="pic/prisbilleder/grangiapris.JPG" class="prizeimg lightbox-trigger" alt="Vinderen af 'Grangia prisvinder' 2024">
                     </section>
+
                     <section class="prizeitem" id="simple-list-item-3">
                         <section class="prize-text">
                             <h2 id="simple-list-item-3">Initiativprisen</h2>
@@ -85,8 +93,9 @@ include("includes/navbar.php");
                                 stor event, som hylder det lokale erhvervsliv, og som foregår i november måned.
                             </p>
                         </section>
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Initiativ prisvinder">
+                        <img src="pic/prisbilleder/initiativpris.JPG" class="prizeimg lightbox-trigger" alt="Vinderen af 'Initiativ prisvinder' 2024">
                     </section>
+
                     <section class="prizeitem" id="simple-list-item-4">
                         <section class="prize-text">
                             <h2 id="simple-list-item-4">Iværksætterprisen</h2>
@@ -94,8 +103,9 @@ include("includes/navbar.php");
                                 risikovillighed, innovation og om at finde måder hvor behov identificeres og
                                 imødekommes.</p>
                         </section>
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Iværksætter prisvinder">
+                        <img src="pic/prisbilleder/iværksætterpris.JPG" class="prizeimg lightbox-trigger" alt="Vinderen af 'Iværksætter prisvinder' 2024">
                     </section>
+
                     <section class="prizeitem" id="simple-list-item-5">
                         <section class="prize-text">
                             <h2 id="simple-list-item-5">Klima- og Miljøprisen</h2>
@@ -104,8 +114,9 @@ include("includes/navbar.php");
                                 indsats for at beskytte mod klimaforandringer og understøtte et bæredygtigt
                                 miljø.</p>
                         </section>
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Klima- og miljø prisvinder">
+                        <img src="pic/prisbilleder/klimamiljøpris.JPG" class="prizeimg lightbox-trigger" alt="Vinderen af 'Klima- og miljø prisvinder' 2024">
                     </section>
+
                     <section class="prizeitem" id="simple-list-item-6">
                         <section class="prize-text">
                             <h2 id="simple-list-item-6">Praktikprisen</h2>
@@ -117,8 +128,9 @@ include("includes/navbar.php");
                                 praktikforløb
                                 for studerende på en af Zealands videregående uddannelser. </p>
                         </section>
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Praktik prisvinder">
+                        <img src="pic/prisbilleder/praktikpris.JPG" class="prizeimg lightbox-trigger" alt="Vinderen af 'Praktik prisvinder' 2024">
                     </section>
+
                     <section class="prizeitem" id="simple-list-item-7">
                         <section class="prize-text">
                             <h2 id="simple-list-item-7">Årets leder</h2>
@@ -137,7 +149,7 @@ include("includes/navbar.php");
                                 som store arbejdspladser, der i hverdagen gør en ægte forskel for andres trivsel og
                                 arbejdsglæde.</p>
                         </section>
-                        <img src="pic/placeholder.png" class="prizeimg" alt="Årets leder prisvinder">
+                        <img src="pic/prisbilleder/åretsleder.JPG" class="prizeimg lightbox-trigger" alt="Vinderen af 'Årets leder prisvinder' 2024">
                     </section>
                 </section>
             </article>
@@ -146,7 +158,20 @@ include("includes/navbar.php");
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </main>
 
+<div class="lightbox-overlay" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <div class="lightbox-content">
+        <img src="" alt="Stort billede">
+        <div class="lightbox-text" id="lightboxText"></div>
+    </div>
+</div>
+
 <script>
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = lightbox.querySelector("img");
+    const lightboxClose = document.getElementById("lightboxClose");
+    const lightboxText = document.getElementById("lightboxText");
+
     let mybutton = document.getElementById("myBtn");
 
     window.onscroll = function () {
@@ -165,6 +190,24 @@ include("includes/navbar.php");
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
+
+    document.querySelectorAll(".lightbox-trigger").forEach(img => {
+        img.addEventListener('click', () => {
+            const prizeItem = img.closest('.prizeitem');
+            const prizeText = prizeItem.querySelector('.prize-text');
+
+            lightboxImg.src = img.src;
+            lightboxText.textContent = img.alt;
+            lightbox.style.display = 'flex';
+        })
+    })
+
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox || e.target === lightboxClose) {
+            lightbox.style.display = 'none';
+            lightboxImg.src = '';
+        }
+    })
 </script>
 
 <?php
