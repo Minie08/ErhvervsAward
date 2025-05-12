@@ -48,7 +48,7 @@ require "settings/init.php";
                 "url": "https://erhvervsaward.dk",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://erhvervsaward.dk/path/to/logo.png"
+                    "url": "https://erhvervsaward.dk/pic/logo.png"
                 }
             }
         }
