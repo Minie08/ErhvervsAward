@@ -11,7 +11,7 @@
                         <label class="w-100">
                             <input type="email" class="form-control" placeholder="Din email" required>
                         </label>
-                        <button type="submit" class="btn btn-warning">Tilmeld</button>
+                        <button type="submit" class="btn btn-cta">Tilmeld</button>
                     </div>
                 </form>
             </section>

@@ -44,7 +44,7 @@ include("includes/navbar.php");
 </header>
 
 <main class="team container py-5 mb-5">
-    <div class="row justify-content-center g-5">
+    <div class="team-row justify-content-center g-5">
 
         <!-- Medlem 1 -->
         <article class="col-md-5 col-lg-4 member">
@@ -116,7 +116,6 @@ include("includes/navbar.php");
 
     </div>
 </main>
-
 
 <?php
 include("includes/footer.php");
