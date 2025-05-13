@@ -86,91 +86,91 @@ include("includes/navbar.php");
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/champagner.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="champagne fyldes op">
+                            <img src="/pic/arkiv-pic/champagner.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="champagne fyldes op" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/erhvervspris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="grangia erhvervspris">
+                            <img src="/pic/arkiv-pic/erhvervspris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="grangia erhvervspris" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/frontløber-grangia.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="frontløber (cafe tidslös) og grangia (kærsgaard motorservice) nominerede">
+                            <img src="/pic/arkiv-pic/frontløber-grangia.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="frontløber (cafe tidslös) og grangia (kærsgaard motorservice) nominerede" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/frontløberpris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="frontløberpris vinder (idalou)">
+                            <img src="/pic/arkiv-pic/frontløberpris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="frontløberpris vinder (idalou)" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/guitar.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="guitar spiller">
+                            <img src="/pic/arkiv-pic/guitar.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="guitar spiller" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/harboe-drink.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="harboe drink fyldes op">
+                            <img src="/pic/arkiv-pic/harboe-drink.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="harboe drink fyldes op" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/harboe-flaske.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="harboe kildevand flaske på bord med glas">
+                            <img src="/pic/arkiv-pic/harboe-flaske.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="harboe kildevand flaske på bord med glas" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/initiativpris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="initiativpris vinder (slagelse vinkompagni)">
+                            <img src="/pic/arkiv-pic/initiativpris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="initiativpris vinder (slagelse vinkompagni)" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/kameramand.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="kameramand filmer">
+                            <img src="/pic/arkiv-pic/kameramand.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="kameramand filmer" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/miljøpris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="klima og miljøpris vinder (ebk-huse)">
+                            <img src="/pic/arkiv-pic/miljøpris.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="klima og miljøpris vinder (ebk-huse)" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/musikker.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="scene, musikker, trummer">
+                            <img src="/pic/arkiv-pic/musikker.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="scene, musikker, trummer" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/poplic-service.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="poplic service trummer">
+                            <img src="/pic/arkiv-pic/poplic-service.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="poplic service trummer" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/scene-dame.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="dame på scenen til arrangementet">
+                            <img src="/pic/arkiv-pic/scene-dame.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="dame på scenen til arrangementet" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/stor-skærm.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="storskærm til eventet">
+                            <img src="/pic/arkiv-pic/stor-skærm.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="storskærm til eventet" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
 
                     <article class="col-6 col-md-4 col-lg-3">
                         <figure class="m-0">
-                            <img src="/pic/arkiv-pic/årets-leder.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="åretsleder pris vinder (slagelse sygehus, akutafdelingen">
+                            <img src="/pic/arkiv-pic/årets-leder.jpg" class="img-fluid rounded shadow-sm gallery-lightbox-trigger" alt="åretsleder pris vinder (slagelse sygehus, akutafdelingen" data-photographer="Foto: Jens Hansen">
                         </figure>
                     </article>
                 </div>
@@ -241,8 +241,10 @@ include("includes/footer.php");
     document.querySelectorAll(".gallery-lightbox-trigger").forEach(img => {
         img.addEventListener('click', () => {
             galleryLightboxImg.src = img.src;
-            galleryLightboxText.textContent = img.alt;
-            galleryLightbox.style.display = 'flex';
+            galleryLightboxText.innerHTML = `
+  <p>${img.alt}</p>
+  <small>${img.dataset.photographer || "Foto: Ukendt"}</small>
+`;            galleryLightbox.style.display = 'flex';
         });
     });
 

@@ -60,7 +60,6 @@ include("includes/navbar.php");
 ?>
 
 <main>
-
     <div class="content-wrapper">
         <article class="row gx-2">
             <aside class="sidebar text-center col-2">
@@ -89,7 +88,7 @@ include("includes/navbar.php");
                             inspiration for andre og til gavn og glæde for kunderne.</p>
                     </section>
                     <img src="pic/prisbilleder/frontløberprisen.JPG" class="prizeimg lightbox-trigger"
-                         alt="Vinderen af 'Frontløber prisvinder' 2024">
+                         alt="Vinderen af 'Frontløber prisvinder' 2024" data-photographer="Foto: Jens Hansen">
                 </section>
 
                 <section class="prizeitem" id="simple-list-item-2">
@@ -107,7 +106,7 @@ include("includes/navbar.php");
                             landkortet.</p>
                     </section>
                     <img src="pic/prisbilleder/grangiapris.JPG" class="prizeimg lightbox-trigger"
-                         alt="Vinderen af 'Grangia Erhvervsprisvinder' 2024">
+                         alt="Vinderen af 'Grangia Erhvervsprisvinder' 2024" data-photographer="Foto: Jens Hansen">
                 </section>
 
                 <section class="prizeitem" id="simple-list-item-3">
@@ -125,7 +124,7 @@ include("includes/navbar.php");
                         </p>
                     </section>
                     <img src="pic/prisbilleder/initiativpris.JPG" class="prizeimg lightbox-trigger"
-                         alt="Vinderen af 'Initiativ prisvinder' 2024">
+                         alt="Vinderen af 'Initiativ prisvinder' 2024" data-photographer="Foto: Jens Hansen">
                 </section>
 
                 <section class="prizeitem" id="simple-list-item-4">
@@ -136,7 +135,7 @@ include("includes/navbar.php");
                             imødekommes.</p>
                     </section>
                     <img src="pic/prisbilleder/iværksætterpris.JPG" class="prizeimg lightbox-trigger"
-                         alt="Vinderen af 'Iværksætter prisvinder' 2024">
+                         alt="Vinderen af 'Iværksætter prisvinder' 2024" data-photographer="Foto: Jens Hansen">
                 </section>
 
                 <section class="prizeitem" id="simple-list-item-5">
@@ -148,7 +147,7 @@ include("includes/navbar.php");
                             miljø.</p>
                     </section>
                     <img src="pic/prisbilleder/klimamiljøpris.JPG" class="prizeimg lightbox-trigger"
-                         alt="Vinderen af 'Klima- og miljø prisvinder' 2024">
+                         alt="Vinderen af 'Klima- og miljø prisvinder' 2024" data-photographer="Foto: Jens Hansen">
                 </section>
 
                 <section class="prizeitem" id="simple-list-item-6">
@@ -163,7 +162,7 @@ include("includes/navbar.php");
                             for studerende på en af Zealands videregående uddannelser. </p>
                     </section>
                     <img src="pic/prisbilleder/praktikpris.JPG" class="prizeimg lightbox-trigger"
-                         alt="Vinderen af 'Praktik prisvinder' 2024">
+                         alt="Vinderen af 'Praktik prisvinder' 2024" data-photographer="Foto: Jens Hansen">
                 </section>
 
                 <section class="prizeitem" id="simple-list-item-7">
@@ -185,7 +184,7 @@ include("includes/navbar.php");
                             arbejdsglæde.</p>
                     </section>
                     <img src="pic/prisbilleder/åretsleder.JPG" class="prizeimg lightbox-trigger"
-                         alt="Vinderen af 'Årets leder prisvinder' 2024">
+                         alt="Vinderen af 'Årets leder prisvinder' 2024" data-photographer="Foto: Jens Hansen">
                 </section>
             </section>
         </article>
@@ -230,21 +229,26 @@ include("includes/navbar.php");
 
     document.querySelectorAll(".lightbox-trigger").forEach(img => {
         img.addEventListener('click', () => {
-            const prizeItem = img.closest('.prizeitem');
-            const prizeText = prizeItem.querySelector('.prize-text');
+            const altText = img.alt;
+            const photographer = img.dataset.photographer;
 
             lightboxImg.src = img.src;
-            lightboxText.textContent = img.alt;
+            if (photographer) {
+                lightboxText.innerHTML = `<p>${altText}</p><p class="text-muted small">${photographer}</p>`;
+            } else {
+                lightboxText.textContent = altText;
+            }
+
             lightbox.style.display = 'flex';
-        })
-    })
+        });
+    });
 
     lightbox.addEventListener('click', (e) => {
         if (e.target === lightbox || e.target === lightboxClose) {
             lightbox.style.display = 'none';
             lightboxImg.src = '';
         }
-    })
+    });
 </script>
 
 <?php
