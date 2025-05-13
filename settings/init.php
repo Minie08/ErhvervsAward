@@ -40,7 +40,7 @@ if(CONFIG_LIVE == 0) {
     $DB_USER = "user";
     $DB_PASS = "password";
 } else if(CONFIG_LIVE == 1) {
-    $DB_SERVER = "linux138.unoeuro.com";
+    $DB_SERVER = "mysql21.unoeuro.com";
     $DB_NAME = "trendgear_dk_db";
     $DB_USER = "trendgear.dk";
     $DB_PASS = "17189690";
