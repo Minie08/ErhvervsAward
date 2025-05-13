@@ -366,6 +366,15 @@ a:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
+.lightbox-text p {
+  margin: 0.5rem 0;
+}
+
+.lightbox-text .small {
+  font-size: 0.85rem;
+  color: #666;
+}
 /*Priser slut*/
 
 /*Kontakt og nominering start*/
@@ -607,6 +616,18 @@ a[href^="mailto:"] {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
+.gallery-lightbox-text p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-lightbox-text small {
+  font-size: 0.9rem;
+  color: #666;
+}
+
 
 // Arkiv slut
 
