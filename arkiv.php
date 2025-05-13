@@ -75,8 +75,6 @@ include("includes/navbar.php");
                     <button class="btn btn-link text-decoration-none fw-bold year-btn" data-year="2023">2023</button>
                     <button class="btn btn-link text-decoration-none fw-bold year-btn" data-year="2022">2022</button>
                     <button class="btn btn-link text-decoration-none fw-bold year-btn" data-year="2021">2021</button>
-                    <button class="btn btn-link text-decoration-none fw-bold year-btn" data-year="2020">2020</button>
-                    <button class="btn btn-link text-decoration-none fw-bold year-btn" data-year="2019">2019</button>
                 </nav>
             </header>
 
