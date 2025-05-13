@@ -42,7 +42,7 @@ if(CONFIG_LIVE == 0) {
 } else if(CONFIG_LIVE == 1) {
     $DB_SERVER = "mysql21.unoeuro.com";
     $DB_NAME = "trendgear_dk_db";
-    $DB_USER = "trendgear.dk";
+    $DB_USER = "trendgear_dk";
     $DB_PASS = "17189690";
 }
 
